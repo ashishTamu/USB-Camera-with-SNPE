@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/ashish/android_projects/UVCCamera/usbCameraTest2/build/intermediates/res/merged/debug/animator/card_flip_right_out.xml",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/animator/card_flip_right_out.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/UVCCamera/usbCameraTest2/build/intermediates/res/merged/debug/animator/card_flip_left_out.xml",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/animator/card_flip_left_out.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/UVCCamera/usbCameraTest2/build/intermediates/res/merged/debug/animator/card_flip_right_in.xml",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/animator/card_flip_right_in.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/UVCCamera/usbCameraTest2/build/intermediates/res/merged/debug/animator/card_flip_left_in.xml",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/animator/card_flip_left_in.xml"
+    }
+]

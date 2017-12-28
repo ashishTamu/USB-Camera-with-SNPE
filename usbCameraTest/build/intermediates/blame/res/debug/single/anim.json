@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/ashish/android_projects/UVCCamera/usbCameraTest/build/intermediates/res/merged/debug/anim/slide_in_right.xml",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/UVCCamera/usbCameraTest/build/intermediates/res/merged/debug/anim/slide_out_left.xml",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/UVCCamera/usbCameraTest/build/intermediates/res/merged/debug/anim/slide_out_right.xml",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/UVCCamera/usbCameraTest/build/intermediates/res/merged/debug/anim/slide_in_left.xml",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/anim/slide_in_left.xml"
+    }
+]

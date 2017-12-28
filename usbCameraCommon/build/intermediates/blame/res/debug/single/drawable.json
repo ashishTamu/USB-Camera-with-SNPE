@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/build/intermediates/res/merged/debug/drawable/btn_shutter_video_recording.xml",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/drawable/btn_shutter_video_recording.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/build/intermediates/res/merged/debug/drawable/mask_circle.xml",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/drawable/mask_circle.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/build/intermediates/res/merged/debug/drawable/btn_repeat_shutter_recording.xml",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/drawable/btn_repeat_shutter_recording.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/build/intermediates/res/merged/debug/drawable/transparent_rect.xml",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/drawable/transparent_rect.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/build/intermediates/res/merged/debug/drawable/border_black.xml",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/drawable/border_black.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/build/intermediates/res/merged/debug/drawable/btn_new_shutter_video.xml",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/drawable/btn_new_shutter_video.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/build/intermediates/res/merged/debug/drawable/frame.9.png",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/drawable/frame.9.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/build/intermediates/res/merged/debug/drawable/btn_new_shutter.xml",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/drawable/btn_new_shutter.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/build/intermediates/res/merged/debug/drawable/toggle_slide.xml",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/drawable/toggle_slide.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/build/intermediates/res/merged/debug/drawable/recordingtime.xml",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/drawable/recordingtime.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/build/intermediates/res/merged/debug/drawable/toggle_button_base.xml",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/drawable/toggle_button_base.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/build/intermediates/res/merged/debug/drawable/border_gray.xml",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/drawable/border_gray.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/build/intermediates/res/merged/debug/drawable/quater_clear_rect.xml",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/drawable/quater_clear_rect.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/build/intermediates/res/merged/debug/drawable/toggle.xml",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/drawable/toggle.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/build/intermediates/res/merged/debug/drawable/border.xml",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/drawable/border.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/build/intermediates/res/merged/debug/drawable/frame_cross.9.png",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/drawable/frame_cross.9.png"
+    }
+]

@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <attr default="-1.0" format="float" name="aspect_ratio"/>
+    <attr default="true" format="boolean" name="handle_touch_event"/>
+    <attr default="scale_none" name="scale_mode">
+		<enum name="keep_aspect" value="0"/>
+		<enum name="stretch_to_fit" value="1"/>
+		<enum name="crop_center" value="2"/>
+	</attr>
+    <color name="ALICEBLUE">#fff0f8ff</color>
+    <color name="ANTIQUEWHITE">#fffaebd7</color>
+    <color name="AQUA">#ff00ffff</color>
+    <color name="AQUAMARINE">#ff7fffd4</color>
+    <color name="AZURE">#fff0ffff</color>
+    <color name="BEIGE">#fff5f5dc</color>
+    <color name="BISQUE">#ffffe4c4</color>
+    <color name="BLACK">#ff000000</color>
+    <color name="BLACK_A010">#19000000</color>
+    <color name="BLACK_A020">#33000000</color>
+    <color name="BLACK_A030">#4c000000</color>
+    <color name="BLACK_A040">#66000000</color>
+    <color name="BLACK_A050">#7f000000</color>
+    <color name="BLACK_A060">#99000000</color>
+    <color name="BLACK_A070">#b2000000</color>
+    <color name="BLACK_A080">#cc000000</color>
+    <color name="BLACK_A090">#e6000000</color>
+    <color name="BLACK_A100">#ff000000</color>
+    <color name="BLANCHEDALMOND">#ffffebcd</color>
+    <color name="BLUE">#ff0000ff</color>
+    <color name="BLUEVIOLET">#ff8a2be2</color>
+    <color name="BLUE_A010">#190000ff</color>
+    <color name="BLUE_A020">#330000ff</color>
+    <color name="BLUE_A030">#4c0000ff</color>
+    <color name="BLUE_A040">#660000ff</color>
+    <color name="BLUE_A050">#700000ff</color>
+    <color name="BLUE_A060">#990000ff</color>
+    <color name="BLUE_A070">#b20000ff</color>
+    <color name="BLUE_A080">#cc0000ff</color>
+    <color name="BLUE_A090">#e60000ff</color>
+    <color name="BLUE_A100">#ff0000ff</color>
+    <color name="BROWN">#ffa52a2a</color>
+    <color name="BURLYWOOD">#ffdeb887</color>
+    <color name="CADETBLUE">#ff5f9ea0</color>
+    <color name="CHARTREUSE">#ff7fff00</color>
+    <color name="CHOCOLATE">#ffd2691e</color>
+    <color name="CLEAR">#00000000</color>
+    <color name="CORAL">#ffff7f50</color>
+    <color name="CORNFLOWERBLUE">#ff6495ed</color>
+    <color name="CORNSILK">#fffff8dc</color>
+    <color name="CRIMSON">#ffdc143c</color>
+    <color name="CYAN">#ff00ffff</color>
+    <color name="DARKBLUE">#ff00008b</color>
+    <color name="DARKCYAN">#ff008b8b</color>
+    <color name="DARKGOLDENROD">#ffb8860b</color>
+    <color name="DARKGRAY">#ffa9a9a9</color>
+    <color name="DARKGREEN">#ff006400</color>
+    <color name="DARKKHAKI">#ffbdb76b</color>
+    <color name="DARKMAGENTA">#ff8b008b</color>
+    <color name="DARKOLIVEGREEN">#ff556b2f</color>
+    <color name="DARKORANGE">#ffff8c00</color>
+    <color name="DARKORCHID">#ff9932cc</color>
+    <color name="DARKRED">#ff8b0000</color>
+    <color name="DARKSALMON">#ffe9967a</color>
+    <color name="DARKSEAGREEN">#ff8fbc8f</color>
+    <color name="DARKSLATEBLUE">#ff483d8b</color>
+    <color name="DARKSLATEGRAY">#ff2f4f4f</color>
+    <color name="DARKTURQUOISE">#ff00ced1</color>
+    <color name="DARKVIOLET">#ff9400d3</color>
+    <color name="DEEPPINK">#ffff1493</color>
+    <color name="DEEPSKYBLUE">#ff00bfff</color>
+    <color name="DIMGRAY">#ff696969</color>
+    <color name="DODGERBLUE">#ff1e90ff</color>
+    <color name="FIREBRICK">#ffb22222</color>
+    <color name="FLORALWHITE">#fffffaf0</color>
+    <color name="FORESTGREEN">#ff228b22</color>
+    <color name="FUCHSIA">#ffff00ff</color>
+    <color name="GAINSBORO">#ffdcdcdc</color>
+    <color name="GHOSTWHITE">#fff8f8ff</color>
+    <color name="GOLD">#ffffd700</color>
+    <color name="GOLDENROD">#ffdaa520</color>
+    <color name="GRAY">#ff808080</color>
+    <color name="GRAY_050_A010">#19fafafa</color>
+    <color name="GRAY_050_A020">#33fafafa</color>
+    <color name="GRAY_050_A030">#4cfafafa</color>
+    <color name="GRAY_050_A040">#66fafafa</color>
+    <color name="GRAY_050_A050">#7ffafafa</color>
+    <color name="GRAY_050_A060">#99fafafa</color>
+    <color name="GRAY_050_A070">#b2fafafa</color>
+    <color name="GRAY_050_A080">#ccfafafa</color>
+    <color name="GRAY_050_A090">#e6fafafa</color>
+    <color name="GRAY_050_A100">#fffafafa</color>
+    <color name="GRAY_100_A010">#19f5f5f5</color>
+    <color name="GRAY_100_A020">#33f5f5f5</color>
+    <color name="GRAY_100_A030">#4cf5f5f5</color>
+    <color name="GRAY_100_A040">#66f5f5f5</color>
+    <color name="GRAY_100_A050">#7ff5f5f5</color>
+    <color name="GRAY_100_A060">#99f5f5f5</color>
+    <color name="GRAY_100_A070">#b2f5f5f5</color>
+    <color name="GRAY_100_A080">#ccf5f5f5</color>
+    <color name="GRAY_100_A090">#e6f5f5f5</color>
+    <color name="GRAY_100_A100">#fff5f5f5</color>
+    <color name="GRAY_200_A010">#19eeeeee</color>
+    <color name="GRAY_200_A020">#33eeeeee</color>
+    <color name="GRAY_200_A030">#4ceeeeee</color>
+    <color name="GRAY_200_A040">#66eeeeee</color>
+    <color name="GRAY_200_A050">#7feeeeee</color>
+    <color name="GRAY_200_A060">#99eeeeee</color>
+    <color name="GRAY_200_A070">#b2eeeeee</color>
+    <color name="GRAY_200_A080">#cceeeeee</color>
+    <color name="GRAY_200_A090">#e6eeeeee</color>
+    <color name="GRAY_200_A100">#ffeeeeee</color>
+    <color name="GRAY_300_A010">#19e0e0e0</color>
+    <color name="GRAY_300_A020">#33e0e0e0</color>
+    <color name="GRAY_300_A030">#4ce0e0e0</color>
+    <color name="GRAY_300_A040">#66e0e0e0</color>
+    <color name="GRAY_300_A050">#7fe0e0e0</color>
+    <color name="GRAY_300_A060">#99e0e0e0</color>
+    <color name="GRAY_300_A070">#b2e0e0e0</color>
+    <color name="GRAY_300_A080">#cce0e0e0</color>
+    <color name="GRAY_300_A090">#e6e0e0e0</color>
+    <color name="GRAY_300_A100">#ffe0e0e0</color>
+    <color name="GRAY_400_A010">#19bdbdbd</color>
+    <color name="GRAY_400_A020">#33bdbdbd</color>
+    <color name="GRAY_400_A030">#4cbdbdbd</color>
+    <color name="GRAY_400_A040">#66bdbdbd</color>
+    <color name="GRAY_400_A050">#7fbdbdbd</color>
+    <color name="GRAY_400_A060">#99bdbdbd</color>
+    <color name="GRAY_400_A070">#b2bdbdbd</color>
+    <color name="GRAY_400_A080">#ccbdbdbd</color>
+    <color name="GRAY_400_A090">#e6bdbdbd</color>
+    <color name="GRAY_400_A100">#ffbdbdbd</color>
+    <color name="GRAY_500_A010">#199e9e9e</color>
+    <color name="GRAY_500_A020">#339e9e9e</color>
+    <color name="GRAY_500_A030">#4c9e9e9e</color>
+    <color name="GRAY_500_A040">#669e9e9e</color>
+    <color name="GRAY_500_A050">#7f9e9e9e</color>
+    <color name="GRAY_500_A060">#999e9e9e</color>
+    <color name="GRAY_500_A070">#b29e9e9e</color>
+    <color name="GRAY_500_A080">#cc9e9e9e</color>
+    <color name="GRAY_500_A090">#e69e9e9e</color>
+    <color name="GRAY_500_A100">#ff9e9e9e</color>
+    <color name="GRAY_600_A010">#19757575</color>
+    <color name="GRAY_600_A020">#33757575</color>
+    <color name="GRAY_600_A030">#4c757575</color>
+    <color name="GRAY_600_A040">#66757575</color>
+    <color name="GRAY_600_A050">#7f757575</color>
+    <color name="GRAY_600_A060">#99757575</color>
+    <color name="GRAY_600_A070">#b2757575</color>
+    <color name="GRAY_600_A080">#cc757575</color>
+    <color name="GRAY_600_A090">#e6757575</color>
+    <color name="GRAY_600_A100">#ff757575</color>
+    <color name="GRAY_700_A010">#19616161</color>
+    <color name="GRAY_700_A020">#33616161</color>
+    <color name="GRAY_700_A030">#4c616161</color>
+    <color name="GRAY_700_A040">#66616161</color>
+    <color name="GRAY_700_A050">#7f616161</color>
+    <color name="GRAY_700_A060">#99616161</color>
+    <color name="GRAY_700_A070">#b2616161</color>
+    <color name="GRAY_700_A080">#cc616161</color>
+    <color name="GRAY_700_A090">#e6616161</color>
+    <color name="GRAY_700_A100">#ff616161</color>
+    <color name="GRAY_800_A010">#19424242</color>
+    <color name="GRAY_800_A020">#33424242</color>
+    <color name="GRAY_800_A030">#4c424242</color>
+    <color name="GRAY_800_A040">#66424242</color>
+    <color name="GRAY_800_A050">#7f424242</color>
+    <color name="GRAY_800_A060">#99424242</color>
+    <color name="GRAY_800_A070">#b2424242</color>
+    <color name="GRAY_800_A080">#cc424242</color>
+    <color name="GRAY_800_A090">#e6424242</color>
+    <color name="GRAY_800_A100">#ff424242</color>
+    <color name="GRAY_900_A010">#19212121</color>
+    <color name="GRAY_900_A020">#33212121</color>
+    <color name="GRAY_900_A030">#4c212121</color>
+    <color name="GRAY_900_A040">#66212121</color>
+    <color name="GRAY_900_A050">#7f212121</color>
+    <color name="GRAY_900_A060">#99212121</color>
+    <color name="GRAY_900_A070">#b2212121</color>
+    <color name="GRAY_900_A080">#cc212121</color>
+    <color name="GRAY_900_A090">#e6212121</color>
+    <color name="GRAY_900_A100">#ff212121</color>
+    <color name="GREEN">#ff008000</color>
+    <color name="GREENYELLOW">#ffadff2f</color>
+    <color name="GREEN_A010">#1900ff00</color>
+    <color name="GREEN_A020">#3300ff00</color>
+    <color name="GREEN_A030">#4c00ff00</color>
+    <color name="GREEN_A040">#6600ff00</color>
+    <color name="GREEN_A050">#7000ff00</color>
+    <color name="GREEN_A060">#9900ff00</color>
+    <color name="GREEN_A070">#b200ff00</color>
+    <color name="GREEN_A080">#cc00ff00</color>
+    <color name="GREEN_A090">#e600ff00</color>
+    <color name="GREEN_A100">#ff00ff00</color>
+    <color name="HALF_CLEAR_ALICEBLUE">#7ff0f8ff</color>
+    <color name="HALF_CLEAR_BLACK">#7f000000</color>
+    <color name="HALF_CLEAR_GRAY">#7f808080</color>
+    <color name="HALF_CLEAR_WHITE">#7fffffff</color>
+    <color name="HONEYDEW">#fff0fff0</color>
+    <color name="HOTPINK">#ffff69b4</color>
+    <color name="INDIANRED">#ffcd5c5c</color>
+    <color name="INDIGO">#ff4b0082</color>
+    <color name="IVORY">#fffffff0</color>
+    <color name="KHAKI">#fff0e68c</color>
+    <color name="LAVENDER">#ffe6e6fa</color>
+    <color name="LAVENDERBLUSH">#fffff0f5</color>
+    <color name="LAWNGREEN">#ff7cfc00</color>
+    <color name="LEMONCHIFFON">#fffffacd</color>
+    <color name="LIGHTBLUE">#ffadd8e6</color>
+    <color name="LIGHTCORAL">#fff08080</color>
+    <color name="LIGHTCYAN">#ffe0ffff</color>
+    <color name="LIGHTGOLDENRODYELLOW">#fffafad2</color>
+    <color name="LIGHTGRAY">#ffd3d3d3</color>
+    <color name="LIGHTGREEN">#ff90ee90</color>
+    <color name="LIGHTPINK">#ffffb6c1</color>
+    <color name="LIGHTSALMON">#ffffa07a</color>
+    <color name="LIGHTSEAGREEN">#ff20b2aa</color>
+    <color name="LIGHTSKYBLUE">#ff87cefa</color>
+    <color name="LIGHTSLATEGRAY">#ff778899</color>
+    <color name="LIGHTSTEELBLUE">#ffb0c4de</color>
+    <color name="LIGHTYELLOW">#ffffffe0</color>
+    <color name="LIME">#ff00ff00</color>
+    <color name="LIMEGREEN">#ff32cd32</color>
+    <color name="LINEN">#fffaf0e6</color>
+    <color name="MAGENTA">#ffff00ff</color>
+    <color name="MAROON">#ff800000</color>
+    <color name="MEDIUMAQUAMARINE">#ff66cdaa</color>
+    <color name="MEDIUMBLUE">#ff0000cd</color>
+    <color name="MEDIUMORCHID">#ffba55d3</color>
+    <color name="MEDIUMPURPLE">#ff9370db</color>
+    <color name="MEDIUMSEAGREEN">#ff3cb371</color>
+    <color name="MEDIUMSLATEBLUE">#ff7b68ee</color>
+    <color name="MEDIUMSPRINGGREEN">#ff00fa9a</color>
+    <color name="MEDIUMTURQUOISE">#ff48d1cc</color>
+    <color name="MEDIUMVIOLETRED">#ffc71585</color>
+    <color name="MIDNIGHTBLUE">#ff191970</color>
+    <color name="MINTCREAM">#fff5fffa</color>
+    <color name="MISTYROSE">#ffffe4e1</color>
+    <color name="MOCCASIN">#ffffe4b5</color>
+    <color name="NAVAJOWHITE">#ffffdead</color>
+    <color name="NAVY">#ff000080</color>
+    <color name="OLDLACE">#fffdf5e6</color>
+    <color name="OLIVE">#ff808000</color>
+    <color name="OLIVEDRAB">#ff6b8e23</color>
+    <color name="ORANGE">#ffffa500</color>
+    <color name="ORANGERED">#ffff4500</color>
+    <color name="ORCHID">#ffda70d6</color>
+    <color name="PALEGOLDENROD">#ffeee8aa</color>
+    <color name="PALEGREEN">#ff98fb98</color>
+    <color name="PALETURQUOISE">#ffafeeee</color>
+    <color name="PALEVIOLETRED">#ffdb7093</color>
+    <color name="PAPAYAWHIP">#ffffefd5</color>
+    <color name="PEACHPUFF">#ffffdab9</color>
+    <color name="PERU">#ffcd853f</color>
+    <color name="PINK">#ffffc0cb</color>
+    <color name="PLUM">#ffdda0dd</color>
+    <color name="POWDERBLUE">#ffb0e0e6</color>
+    <color name="PURPLE">#ff800080</color>
+    <color name="PURPLE_A010">#19ff00ff</color>
+    <color name="PURPLE_A020">#33ff00ff</color>
+    <color name="PURPLE_A030">#4cff00ff</color>
+    <color name="PURPLE_A040">#66ff00ff</color>
+    <color name="PURPLE_A050">#70ff00ff</color>
+    <color name="PURPLE_A060">#99ff00ff</color>
+    <color name="PURPLE_A070">#b2ff00ff</color>
+    <color name="PURPLE_A080">#ccff00ff</color>
+    <color name="PURPLE_A090">#e6ff00ff</color>
+    <color name="PURPLE_A100">#ffff00ff</color>
+    <color name="QUATER_CLEAR_BLACK">#3f000000</color>
+    <color name="QUATER_CLEAR_GRAY">#3f808080</color>
+    <color name="QUATER_CLEAR_WHITE">#3fffffff</color>
+    <color name="RED">#ffff0000</color>
+    <color name="RED_050_A010">#19ffebee</color>
+    <color name="RED_050_A020">#33ffebee</color>
+    <color name="RED_050_A030">#4cffebee</color>
+    <color name="RED_050_A040">#66ffebee</color>
+    <color name="RED_050_A050">#7fffebee</color>
+    <color name="RED_050_A060">#99ffebee</color>
+    <color name="RED_050_A070">#b2ffebee</color>
+    <color name="RED_050_A080">#ccffebee</color>
+    <color name="RED_050_A090">#e6ffebee</color>
+    <color name="RED_050_A100">#ffffebee</color>
+    <color name="RED_100_A010">#19ffcdd2</color>
+    <color name="RED_100_A020">#33ffcdd2</color>
+    <color name="RED_100_A030">#4cffcdd2</color>
+    <color name="RED_100_A040">#66ffcdd2</color>
+    <color name="RED_100_A050">#7fffcdd2</color>
+    <color name="RED_100_A060">#99ffcdd2</color>
+    <color name="RED_100_A070">#b2ffcdd2</color>
+    <color name="RED_100_A080">#ccffcdd2</color>
+    <color name="RED_100_A090">#e6ffcdd2</color>
+    <color name="RED_100_A100">#ffffcdd2</color>
+    <color name="RED_200_A010">#19ef9a9a</color>
+    <color name="RED_200_A020">#33ef9a9a</color>
+    <color name="RED_200_A030">#4cef9a9a</color>
+    <color name="RED_200_A040">#66ef9a9a</color>
+    <color name="RED_200_A050">#7fef9a9a</color>
+    <color name="RED_200_A060">#99ef9a9a</color>
+    <color name="RED_200_A070">#b2ef9a9a</color>
+    <color name="RED_200_A080">#ccef9a9a</color>
+    <color name="RED_200_A090">#e6ef9a9a</color>
+    <color name="RED_200_A100">#ffef9a9a</color>
+    <color name="RED_300_A010">#19e57373</color>
+    <color name="RED_300_A020">#33e57373</color>
+    <color name="RED_300_A030">#4ce57373</color>
+    <color name="RED_300_A040">#66e57373</color>
+    <color name="RED_300_A050">#7fe57373</color>
+    <color name="RED_300_A060">#99e57373</color>
+    <color name="RED_300_A070">#b2e57373</color>
+    <color name="RED_300_A080">#cce57373</color>
+    <color name="RED_300_A090">#e6e57373</color>
+    <color name="RED_300_A100">#ffe57373</color>
+    <color name="RED_400_A010">#19ef5350</color>
+    <color name="RED_400_A020">#33ef5350</color>
+    <color name="RED_400_A030">#4cef5350</color>
+    <color name="RED_400_A040">#66ef5350</color>
+    <color name="RED_400_A050">#7fef5350</color>
+    <color name="RED_400_A060">#99ef5350</color>
+    <color name="RED_400_A070">#b2ef5350</color>
+    <color name="RED_400_A080">#ccef5350</color>
+    <color name="RED_400_A090">#e6ef5350</color>
+    <color name="RED_400_A100">#ffef5350</color>
+    <color name="RED_500_A010">#19f44336</color>
+    <color name="RED_500_A020">#33f44336</color>
+    <color name="RED_500_A030">#4cf44336</color>
+    <color name="RED_500_A040">#66f44336</color>
+    <color name="RED_500_A050">#7ff44336</color>
+    <color name="RED_500_A060">#99f44336</color>
+    <color name="RED_500_A070">#b2f44336</color>
+    <color name="RED_500_A080">#ccf44336</color>
+    <color name="RED_500_A090">#e6f44336</color>
+    <color name="RED_500_A100">#fff44336</color>
+    <color name="RED_600_A010">#19e53935</color>
+    <color name="RED_600_A020">#33e53935</color>
+    <color name="RED_600_A030">#4ce53935</color>
+    <color name="RED_600_A040">#66e53935</color>
+    <color name="RED_600_A050">#7fe53935</color>
+    <color name="RED_600_A060">#99e53935</color>
+    <color name="RED_600_A070">#b2e53935</color>
+    <color name="RED_600_A080">#cce53935</color>
+    <color name="RED_600_A090">#e6e53935</color>
+    <color name="RED_600_A100">#ffe53935</color>
+    <color name="RED_700_A010">#19d32f2f</color>
+    <color name="RED_700_A020">#33d32f2f</color>
+    <color name="RED_700_A030">#4cd32f2f</color>
+    <color name="RED_700_A040">#66d32f2f</color>
+    <color name="RED_700_A050">#7fd32f2f</color>
+    <color name="RED_700_A060">#99d32f2f</color>
+    <color name="RED_700_A070">#b2d32f2f</color>
+    <color name="RED_700_A080">#ccd32f2f</color>
+    <color name="RED_700_A090">#e6d32f2f</color>
+    <color name="RED_700_A100">#ffd32f2f</color>
+    <color name="RED_800_A010">#19c62828</color>
+    <color name="RED_800_A020">#33c62828</color>
+    <color name="RED_800_A030">#4cc62828</color>
+    <color name="RED_800_A040">#66c62828</color>
+    <color name="RED_800_A050">#7fc62828</color>
+    <color name="RED_800_A060">#99c62828</color>
+    <color name="RED_800_A070">#b2c62828</color>
+    <color name="RED_800_A080">#ccc62828</color>
+    <color name="RED_800_A090">#e6c62828</color>
+    <color name="RED_800_A100">#ffc62828</color>
+    <color name="RED_900_A010">#19b71c1c</color>
+    <color name="RED_900_A020">#33b71c1c</color>
+    <color name="RED_900_A030">#4cb71c1c</color>
+    <color name="RED_900_A040">#66b71c1c</color>
+    <color name="RED_900_A050">#7fb71c1c</color>
+    <color name="RED_900_A060">#99b71c1c</color>
+    <color name="RED_900_A070">#b2b71c1c</color>
+    <color name="RED_900_A080">#ccb71c1c</color>
+    <color name="RED_900_A090">#e6b71c1c</color>
+    <color name="RED_900_A100">#ffb71c1c</color>
+    <color name="RED_A010">#19ff0000</color>
+    <color name="RED_A020">#33ff0000</color>
+    <color name="RED_A030">#4cff0000</color>
+    <color name="RED_A040">#66ff0000</color>
+    <color name="RED_A050">#7fff0000</color>
+    <color name="RED_A060">#99ff0000</color>
+    <color name="RED_A070">#b2ff0000</color>
+    <color name="RED_A080">#ccff0000</color>
+    <color name="RED_A090">#e6ff0000</color>
+    <color name="RED_A100">#ffff0000</color>
+    <color name="ROSYBROWN">#ffbc8f8f</color>
+    <color name="ROYALBLUE">#ff4169e1</color>
+    <color name="SADDLEBROWN">#ff8b4513</color>
+    <color name="SALMON">#fffa8072</color>
+    <color name="SANDYBROWN">#fff4a460</color>
+    <color name="SEAGREEN">#ff2e8b57</color>
+    <color name="SEASHELL">#fffff5ee</color>
+    <color name="SIENNA">#ffa0522d</color>
+    <color name="SILVER">#ffc0c0c0</color>
+    <color name="SKYBLUE">#ff87ceeb</color>
+    <color name="SLATEBLUE">#ff6a5acd</color>
+    <color name="SLATEGRAY">#ff708090</color>
+    <color name="SNOW">#fffffafa</color>
+    <color name="SPRINGGREEN">#ff00ff7f</color>
+    <color name="STEELBLUE">#ff4682b4</color>
+    <color name="TAN">#ffd2b48c</color>
+    <color name="TEAL">#ff008080</color>
+    <color name="TEAL_050_A010">#19e0f2f1</color>
+    <color name="TEAL_050_A020">#33e0f2f1</color>
+    <color name="TEAL_050_A030">#4ce0f2f1</color>
+    <color name="TEAL_050_A040">#66e0f2f1</color>
+    <color name="TEAL_050_A050">#7fe0f2f1</color>
+    <color name="TEAL_050_A060">#99e0f2f1</color>
+    <color name="TEAL_050_A070">#b2e0f2f1</color>
+    <color name="TEAL_050_A080">#cce0f2f1</color>
+    <color name="TEAL_050_A090">#e6e0f2f1</color>
+    <color name="TEAL_050_A100">#ffe0f2f1</color>
+    <color name="TEAL_100_A010">#19b2dfdb</color>
+    <color name="TEAL_100_A020">#33b2dfdb</color>
+    <color name="TEAL_100_A030">#4cb2dfdb</color>
+    <color name="TEAL_100_A040">#66b2dfdb</color>
+    <color name="TEAL_100_A050">#7fb2dfdb</color>
+    <color name="TEAL_100_A060">#99b2dfdb</color>
+    <color name="TEAL_100_A070">#b2b2dfdb</color>
+    <color name="TEAL_100_A080">#ccb2dfdb</color>
+    <color name="TEAL_100_A090">#e6b2dfdb</color>
+    <color name="TEAL_100_A100">#ffb2dfdb</color>
+    <color name="TEAL_200_A010">#1980cbc4</color>
+    <color name="TEAL_200_A020">#3380cbc4</color>
+    <color name="TEAL_200_A030">#4c80cbc4</color>
+    <color name="TEAL_200_A040">#6680cbc4</color>
+    <color name="TEAL_200_A050">#7f80cbc4</color>
+    <color name="TEAL_200_A060">#9980cbc4</color>
+    <color name="TEAL_200_A070">#b280cbc4</color>
+    <color name="TEAL_200_A080">#cc80cbc4</color>
+    <color name="TEAL_200_A090">#e680cbc4</color>
+    <color name="TEAL_200_A100">#ff80cbc4</color>
+    <color name="TEAL_300_A010">#194db6ac</color>
+    <color name="TEAL_300_A020">#334db6ac</color>
+    <color name="TEAL_300_A030">#4c4db6ac</color>
+    <color name="TEAL_300_A040">#664db6ac</color>
+    <color name="TEAL_300_A050">#7f4db6ac</color>
+    <color name="TEAL_300_A060">#994db6ac</color>
+    <color name="TEAL_300_A070">#b24db6ac</color>
+    <color name="TEAL_300_A080">#cc4db6ac</color>
+    <color name="TEAL_300_A090">#e64db6ac</color>
+    <color name="TEAL_300_A100">#ff4db6ac</color>
+    <color name="TEAL_400_A010">#1926a69a</color>
+    <color name="TEAL_400_A020">#3326a69a</color>
+    <color name="TEAL_400_A030">#4c26a69a</color>
+    <color name="TEAL_400_A040">#6626a69a</color>
+    <color name="TEAL_400_A050">#7f26a69a</color>
+    <color name="TEAL_400_A060">#9926a69a</color>
+    <color name="TEAL_400_A070">#b226a69a</color>
+    <color name="TEAL_400_A080">#cc26a69a</color>
+    <color name="TEAL_400_A090">#e626a69a</color>
+    <color name="TEAL_400_A100">#ff26a69a</color>
+    <color name="TEAL_500_A010">#19009688</color>
+    <color name="TEAL_500_A020">#33009688</color>
+    <color name="TEAL_500_A030">#4c009688</color>
+    <color name="TEAL_500_A040">#66009688</color>
+    <color name="TEAL_500_A050">#7f009688</color>
+    <color name="TEAL_500_A060">#99009688</color>
+    <color name="TEAL_500_A070">#b2009688</color>
+    <color name="TEAL_500_A080">#cc009688</color>
+    <color name="TEAL_500_A090">#e6009688</color>
+    <color name="TEAL_500_A100">#ff009688</color>
+    <color name="TEAL_600_A010">#1900897b</color>
+    <color name="TEAL_600_A020">#3300897b</color>
+    <color name="TEAL_600_A030">#4c00897b</color>
+    <color name="TEAL_600_A040">#6600897b</color>
+    <color name="TEAL_600_A050">#7f00897b</color>
+    <color name="TEAL_600_A060">#9900897b</color>
+    <color name="TEAL_600_A070">#b200897b</color>
+    <color name="TEAL_600_A080">#cc00897b</color>
+    <color name="TEAL_600_A090">#e600897b</color>
+    <color name="TEAL_600_A100">#ff00897b</color>
+    <color name="TEAL_700_A010">#1900796b</color>
+    <color name="TEAL_700_A020">#3300796b</color>
+    <color name="TEAL_700_A030">#4c00796b</color>
+    <color name="TEAL_700_A040">#6600796b</color>
+    <color name="TEAL_700_A050">#7f00796b</color>
+    <color name="TEAL_700_A060">#9900796b</color>
+    <color name="TEAL_700_A070">#b200796b</color>
+    <color name="TEAL_700_A080">#cc00796b</color>
+    <color name="TEAL_700_A090">#e600796b</color>
+    <color name="TEAL_700_A100">#ff00796b</color>
+    <color name="TEAL_800_A010">#1900695c</color>
+    <color name="TEAL_800_A020">#3300695c</color>
+    <color name="TEAL_800_A030">#4c00695c</color>
+    <color name="TEAL_800_A040">#6600695c</color>
+    <color name="TEAL_800_A050">#7f00695c</color>
+    <color name="TEAL_800_A060">#9900695c</color>
+    <color name="TEAL_800_A070">#b200695c</color>
+    <color name="TEAL_800_A080">#cc00695c</color>
+    <color name="TEAL_800_A090">#e600695c</color>
+    <color name="TEAL_800_A100">#ff00695c</color>
+    <color name="TEAL_900_A010">#19004d40</color>
+    <color name="TEAL_900_A020">#33004d40</color>
+    <color name="TEAL_900_A030">#4c004d40</color>
+    <color name="TEAL_900_A040">#66004d40</color>
+    <color name="TEAL_900_A050">#7f004d40</color>
+    <color name="TEAL_900_A060">#99004d40</color>
+    <color name="TEAL_900_A070">#b2004d40</color>
+    <color name="TEAL_900_A080">#cc004d40</color>
+    <color name="TEAL_900_A090">#e6004d40</color>
+    <color name="TEAL_900_A100">#ff004d40</color>
+    <color name="THISTLE">#ffd8bfd8</color>
+    <color name="TOMATO">#ffff6347</color>
+    <color name="TRANSPARENT">#00000000</color>
+    <color name="TURQUOISE">#ff40e0d0</color>
+    <color name="VIOLET">#ffee82ee</color>
+    <color name="WHEAT">#fff5deb3</color>
+    <color name="WHITE">#ffffffff</color>
+    <color name="WHITESMOKE">#fff5f5f5</color>
+    <color name="WHITE_A010">#19ffffff</color>
+    <color name="WHITE_A020">#33ffffff</color>
+    <color name="WHITE_A030">#4cffffff</color>
+    <color name="WHITE_A040">#66ffffff</color>
+    <color name="WHITE_A050">#7fffffff</color>
+    <color name="WHITE_A060">#99ffffff</color>
+    <color name="WHITE_A070">#b2ffffff</color>
+    <color name="WHITE_A080">#ccffffff</color>
+    <color name="WHITE_A090">#e6ffffff</color>
+    <color name="WHITE_A100">#ffffffff</color>
+    <color name="YELLOW">#ffffff00</color>
+    <color name="YELLOWGREEN">#ff9acd32</color>
+    <color name="YELLOW_A010">#19ffff00</color>
+    <color name="YELLOW_A020">#33ffff00</color>
+    <color name="YELLOW_A030">#4cffff00</color>
+    <color name="YELLOW_A040">#66ffff00</color>
+    <color name="YELLOW_A050">#70ffff00</color>
+    <color name="YELLOW_A060">#99ffff00</color>
+    <color name="YELLOW_A070">#b2ffff00</color>
+    <color name="YELLOW_A080">#ccffff00</color>
+    <color name="YELLOW_A090">#e6ffff00</color>
+    <color name="YELLOW_A100">#ffffff00</color>
+    <color name="contents_text">@color/BLACK</color>
+    <color name="encode_view">@color/WHITE</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <color name="result_minor_text">@color/SILVER</color>
+    <color name="result_points">#c099cc00</color>
+    <color name="result_text">@color/WHITE</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">@color/WHITE</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <declare-styleable name="AspectScaledTextureView"><attr name="aspect_ratio"/><attr name="scale_mode"/></declare-styleable>
+    <declare-styleable name="FrameView"><attr default="frame_type_frame" name="frame_type">
+			<enum name="frame_type_none" value="0"/>
+			<enum name="frame_type_frame" value="1"/>
+			<enum name="frame_type_cross_full" value="2"/>
+			<enum name="frame_type_cross_quarter" value="3"/>
+			<enum name="frame_type_circle" value="4"/>
+			<enum name="frame_type_cross_circle" value="5"/>
+			<enum name="frame_type_circle2" value="6"/>
+			<enum name="frame_type_cross_circle2" value="7"/>
+		</attr><attr default="3dp" format="dimension" name="frame_width"/><attr default="#ffb1b1b1" format="reference|color|integer" name="frame_color"/><attr default="scale_none" name="scale_type">
+			<enum name="scale_none" value="0"/>
+			<enum name="scale_inch" value="1"/>
+			<enum name="scale_mm" value="2"/>
+		</attr><attr default="3dp" format="dimension" name="scale_width"/><attr default="#ffb1b1b1" format="reference|color|integer" name="scale_color"/><attr default="0" format="float" name="scale_rotation"/><attr default="1" format="float" name="scale_scale"/><attr default="#ffb1b1b1" format="reference|color|integer" name="tick_color"/></declare-styleable>
+    <declare-styleable name="IAspectRatioView"><attr name="aspect_ratio"/></declare-styleable>
+    <declare-styleable name="IScaledView"><attr name="scale_mode"/></declare-styleable>
+    <declare-styleable name="ItemPicker"><attr format="reference" name="ItemPickerIncrementSrc"/><attr format="reference" name="ItemPickerDecrementSrc"/><attr format="reference" name="ItemPickerIncrementBackground"/><attr format="reference" name="ItemPickerDecrementBackground"/><attr format="reference" name="ItemPickerEditTextBackground"/><attr format="integer" name="ItemPickerMinItemValue"/><attr format="integer" name="ItemPickerMaxItemValue"/><attr format="integer" name="ItemPickerCurrentItemValue"/><attr format="integer" name="ItemPickerSpeed"/><attr format="reference" name="ItemPickerDisplayedValue"/></declare-styleable>
+    <declare-styleable name="RecycleViewWithEmptyView"><attr format="color|reference" name="listDivider" value="@null"/></declare-styleable>
+    <declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr name="android:descendantFocusability"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/></declare-styleable>
+    <declare-styleable name="SeekBarPreference"><attr default="0" format="integer|reference" name="min_value"/><attr default="100" format="integer|reference" name="max_value"/><attr default="0" format="integer|reference" name="default_value"/><attr default="0" format="reference" name="seekbar_layout"/><attr default="@id/seekbar" format="reference" name="seekbar_id"/><attr default="@id/seekbar_value_label" format="reference" name="seekbar_label_id"/><attr default="1" format="float" name="scale_value"/><attr default="1" format="string|reference" name="value_format"/></declare-styleable>
+    <declare-styleable name="TimePicker"><attr format="integer" name="TimePickerDefaultValue"/></declare-styleable>
+    <declare-styleable name="TwoPainViewGroup"><attr default="horizontal" format="enum|integer" name="orientation">
+			<enum name="horizontal" value="0"/>
+			<enum name="vertical" value="1"/>
+		</attr><attr default="split" format="enum|integer" name="displayMode">
+			<enum name="split" value="0"/>
+			<enum name="select1" value="1"/>
+			<enum name="select2" value="2"/>
+			<enum name="single1" value="3"/>
+			<enum name="single2" value="4"/>
+		</attr><attr default="true" format="boolean" name="enableSubWindow">
+		</attr><attr default="false" format="boolean" name="flipChildPos">
+		</attr><attr default="0.2" format="float" name="subWindowScale">
+		</attr></declare-styleable>
+    <declare-styleable name="ZoomAspectScaledTextureView"><attr name="aspect_ratio"/><attr name="scale_mode"/><attr name="handle_touch_event"/></declare-styleable>
+    <dimen name="button_size">48dp</dimen>
+    <dimen name="color_picker_margin_horizontal">16dp</dimen>
+    <dimen name="color_picker_margin_vertical">16dp</dimen>
+    <dimen name="color_swatch_large">64dip</dimen>
+    <dimen name="color_swatch_margins_large">8dip</dimen>
+    <dimen name="color_swatch_margins_small">4dip</dimen>
+    <dimen name="color_swatch_small">48dip</dimen>
+    <dimen name="horizontal_margin">16dp</dimen>
+    <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
+    <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
+    <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
+    <dimen name="list_font_size">18sp</dimen>
+    <dimen name="list_height_min">32dp</dimen>
+    <dimen name="list_item_bluetooth_info_padding">8dp</dimen>
+    <dimen name="scale_type_margin_top">18dp</dimen>
+    <dimen name="scale_type_padding">16dp</dimen>
+    <dimen name="text_sz_scale_type">24sp</dimen>
+    <dimen name="vertical_margin">16dp</dimen>
+    <item name="address" type="id"/>
+    <item name="anim_duration" type="id"/>
+    <item name="anim_listener" type="id"/>
+    <item name="anim_type" type="id"/>
+    <item name="has_divider" type="id"/>
+    <item name="icon" type="id"/>
+    <item name="item_touch_helper_previous_elevation" type="id"/>
+    <item name="mediastorephotoadapter" type="id"/>
+    <item name="name" type="id"/>
+    <item name="position" type="id"/>
+    <item name="seekbar" type="id"/>
+    <item name="seekbar_value_label" type="id"/>
+    <item name="thumbnail" type="id"/>
+    <item name="title" type="id"/>
+    <integer name="card_flip_time_full">300</integer>
+    <integer name="card_flip_time_half">150</integer>
+    <string name="camera">Camera</string>
+    <string name="color_picker_cancel">Cancel</string>
+    <string name="color_picker_default_title">Select a Color</string>
+    <string name="color_picker_select">Select</string>
+    <string name="color_swatch_description">Color <ns1:g example="14" id="color_index">%1$d</ns1:g></string>
+    <string name="color_swatch_description_selected">Color <ns1:g example="14" id="color_index">%1$d</ns1:g> selected</string>
+    <string name="no_device">No USB camera found</string>
+    <string name="permission_audio">No audio recording permission. \nAll audio function is disabled</string>
+    <string name="permission_audio_recording_reason">Audio recording permission is necessary for movie capture with audio.</string>
+    <string name="permission_audio_recording_request">Audio recording permission is necessary for movie capture with audio.</string>
+    <string name="permission_audio_streaming_reason">Audio recording permission is necessary for streaming with audio.</string>
+    <string name="permission_audio_streaming_request">Audio recording permission is necessary for streaming with audio.</string>
+    <string name="permission_camera">No camera access permission</string>
+    <string name="permission_camera_finish">No camera access permission. \nApp will finish soon</string>
+    <string name="permission_camera_reason">Camera access permission is necessary for fallback to built in camera.</string>
+    <string name="permission_camera_request">Camera access permission is necessary for fallback to built in camera.</string>
+    <string name="permission_ext_storage">No permission of writing external storage. \nMovie/still image capturing are disabled.</string>
+    <string name="permission_ext_storage_finish">No writing external storage permission. \nApp will finish soon</string>
+    <string name="permission_ext_storage_reason">Permission of writing external storage is necessary for movie/still image capturing.</string>
+    <string name="permission_ext_storage_request">Permission of writing external storage is necessary for movie/still image capturing.</string>
+    <string name="permission_location">No location access permission</string>
+    <string name="permission_location_finish">No location access permission. \nApp will finish soon</string>
+    <string name="permission_location_reason">Location access permission is necessary for %s</string>
+    <string name="permission_location_request">Location access permission is necessary for %s</string>
+    <string name="permission_network">No network access permission.</string>
+    <string name="permission_network_finish">No network access permission. \nApp will finish soon</string>
+    <string name="permission_network_reason">Network access permission is necessary for streaming.</string>
+    <string name="permission_network_request">Network access permission is necessary for streaming.</string>
+    <string name="permission_title">Regarding permission</string>
+    <string name="refresh">Refresh</string>
+    <string name="scale_type_inch">inch scale</string>
+    <string name="scale_type_mm">mm scale</string>
+    <string name="scale_type_none">none</string>
+    <string name="select">Select USB Web Camera</string>
+    <style name="SeekBarPreference_summary" parent="@android:style/TextAppearance.Small">
+		<!-- <item name="android:textColor">#ffa500</item> -->
+	</style>
+    <style name="SeekBarPreference_title" parent="@android:style/TextAppearance.Large"/>
+</resources>

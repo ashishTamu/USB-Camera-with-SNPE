@@ -1,0 +1,117 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:25:1-68:12
+	package
+		ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:26:5-45
+		INJECTED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml
+		INJECTED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml
+		INJECTED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:25:11-69
+	android:versionCode
+		INJECTED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml
+		INJECTED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:28:5-70
+	android:name
+		ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:28:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:29:5-80
+	android:name
+		ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:29:22-78
+uses-feature#0x00020000
+ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:31:5-78
+	android:glEsVersion
+		ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:31:19-51
+	android:required
+		ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:31:52-75
+application
+ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:34:5-66:16
+MERGED from [com.android.support:support-core-ui:25.3.1] /root/.android/build-cache/3e365e581166926e0b5956890fe4f7d6843f49bc/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /root/.android/build-cache/d0b3125d7e71a372f40c2be809dbbe34d5b1cda6/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:37:9-41
+	android:allowBackup
+		ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:35:9-35
+	android:icon
+		ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:36:9-45
+	android:theme
+		ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:38:9-40
+activity#com.serenegiant.usbcameratest4.MainActivity
+ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:39:9-57:24
+	android:label
+		ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:41:13-45
+	android:launchMode
+		ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:42:13-44
+	android:name
+		ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:40:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:43:13-47:29
+action#android.intent.action.MAIN
+ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:44:17-69
+	android:name
+		ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:44:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:46:17-77
+	android:name
+		ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:46:27-74
+intent-filter#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:48:4-50:20
+action#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:49:5-78
+	android:name
+		ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:49:13-75
+intent-filter#android.hardware.usb.action.USB_DEVICE_DETACHED
+ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:51:4-53:20
+action#android.hardware.usb.action.USB_DEVICE_DETACHED
+ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:52:5-78
+	android:name
+		ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:52:13-75
+meta-data#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:54:4-56:45
+	android:resource
+		ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:56:5-42
+	android:name
+		ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:55:5-67
+service#com.serenegiant.service.UVCService
+ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:58:9-65:13
+	android:process
+		ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:60:4-33
+	android:name
+		ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:59:13-62
+intent-filter#com.serenegiant.service.IUVCService+com.serenegiant.service.IUVCSlaveService
+ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:61:13-64:20
+action#com.serenegiant.service.IUVCService
+ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:62:17-78
+	android:name
+		ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:62:25-75
+action#com.serenegiant.service.IUVCSlaveService
+ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:63:17-83
+	android:name
+		ADDED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml:63:25-80
+uses-sdk
+INJECTED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [UVCCamera:usbCameraCommon:unspecified] /home/ashish/android_projects/UVCCamera/usbCameraCommon/build/intermediates/bundles/default/AndroidManifest.xml:28:5-30:41
+MERGED from [UVCCamera:libuvccamera:unspecified] /home/ashish/android_projects/UVCCamera/libuvccamera/build/intermediates/bundles/default/AndroidManifest.xml:29:5-31:41
+MERGED from [com.serenegiant:common:1.5.20] /root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /root/.android/build-cache/4a58387dccec180c43ba14e2a8e67667413f88a8/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.3.1] /root/.android/build-cache/3e365e581166926e0b5956890fe4f7d6843f49bc/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /root/.android/build-cache/d0b3125d7e71a372f40c2be809dbbe34d5b1cda6/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-core-ui:25.3.1] /root/.android/build-cache/3e365e581166926e0b5956890fe4f7d6843f49bc/output/AndroidManifest.xml:23:9-55
+	android:targetSdkVersion
+		INJECTED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml
+		INJECTED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml
+		INJECTED from /home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:recyclerview-v7:25.3.1] /root/.android/build-cache/4a58387dccec180c43ba14e2a8e67667413f88a8/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /root/.android/build-cache/3e365e581166926e0b5956890fe4f7d6843f49bc/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /root/.android/build-cache/d0b3125d7e71a372f40c2be809dbbe34d5b1cda6/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:recyclerview-v7:25.3.1] /root/.android/build-cache/4a58387dccec180c43ba14e2a8e67667413f88a8/output/AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:recyclerview-v7:25.3.1] /root/.android/build-cache/4a58387dccec180c43ba14e2a8e67667413f88a8/output/AndroidManifest.xml:23:9-47

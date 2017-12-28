@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/home/ashish/android_projects/UVCCamera/usbCameraTest6/build/intermediates/res/merged/debug/layout/color_picker.xml",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/layout/color_picker.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/UVCCamera/usbCameraTest6/build/intermediates/res/merged/debug/layout/dialog_camera.xml",
+        "source": "/home/ashish/android_projects/UVCCamera/libuvccamera/build/intermediates/bundles/default/res/layout/dialog_camera.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/UVCCamera/usbCameraTest6/build/intermediates/res/merged/debug/layout/listitem_device.xml",
+        "source": "/home/ashish/android_projects/UVCCamera/libuvccamera/build/intermediates/bundles/default/res/layout/listitem_device.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/UVCCamera/usbCameraTest6/build/intermediates/res/merged/debug/layout/view_frame_selector.xml",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/layout/view_frame_selector.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/UVCCamera/usbCameraTest6/build/intermediates/res/merged/debug/layout/list_item_bluetooth_device_info.xml",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/layout/list_item_bluetooth_device_info.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/UVCCamera/usbCameraTest6/build/intermediates/res/merged/debug/layout/color_picker_dialog.xml",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/layout/color_picker_dialog.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/UVCCamera/usbCameraTest6/build/intermediates/res/merged/debug/layout/seekbar_preference.xml",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/layout/seekbar_preference.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/UVCCamera/usbCameraTest6/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/ashish/android_projects/UVCCamera/usbCameraTest6/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/UVCCamera/usbCameraTest6/build/intermediates/res/merged/debug/layout/item_picker.xml",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/layout/item_picker.xml"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_transparent.png",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/mipmap-xxhdpi-v4/ic_transparent.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_frame_cross.png",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/mipmap-xxhdpi-v4/ic_frame_cross.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_frame_circle.png",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/mipmap-xxhdpi-v4/ic_frame_circle.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_frame_cross_circle.png",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/mipmap-xxhdpi-v4/ic_frame_cross_circle.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_frame_cross_quarter.png",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/mipmap-xxhdpi-v4/ic_frame_cross_quarter.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_frame_circle_2.png",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/mipmap-xxhdpi-v4/ic_frame_circle_2.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_color_circle.png",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/mipmap-xxhdpi-v4/ic_color_circle.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_frame_cross_circle2.png",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/mipmap-xxhdpi-v4/ic_frame_cross_circle2.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_frame_frame.png",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/mipmap-xxhdpi-v4/ic_frame_frame.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_drawer.png",
+        "source": "/root/.android/build-cache/bf70746ca403f048282656fdee6109f0db141740/output/res/mipmap-xxhdpi-v4/ic_drawer.png"
+    }
+]

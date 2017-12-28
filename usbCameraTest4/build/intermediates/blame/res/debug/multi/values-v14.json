@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "/home/ashish/android_projects/UVCCamera/usbCameraTest4/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 201
+                },
+                "from": {
+                    "file": "/home/ashish/android_projects/UVCCamera/usbCameraTest4/src/main/res/values-v14/styles.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1177,
+                        "endLine": 32,
+                        "endColumn": 12,
+                        "endOffset": 1323
+                    }
+                }
+            }
+        ]
+    }
+]
