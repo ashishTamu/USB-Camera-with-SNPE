@@ -1,0 +1,422 @@
+[
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-hdpi-v4_ic_decrement.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-hdpi-v4/ic_decrement.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xxhdpi-v4_ic_color_circle.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xxhdpi-v4/ic_color_circle.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xxhdpi-v4_ic_drawer.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xxhdpi-v4/ic_drawer.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-hdpi-v4_ic_frame_frame.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-hdpi-v4/ic_frame_frame.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-ldpi-v4_ic_frame_circle_2.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-ldpi-v4/ic_frame_circle_2.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4_ic_frame_cross.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xhdpi-v4/ic_frame_cross.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/anim_slide_out_right.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-mdpi-v4_ic_frame_circle.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-mdpi-v4/ic_frame_circle.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-mdpi-v4_ic_frame_cross_circle.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-mdpi-v4/ic_frame_cross_circle.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-hdpi-v4_btn_video_shutter_recording_pressed_holo.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-hdpi-v4/btn_video_shutter_recording_pressed_holo.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-hdpi-v4_ic_frame_cross_quarter.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-hdpi-v4/ic_frame_cross_quarter.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4_ic_frame_circle.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xhdpi-v4/ic_frame_circle.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-hdpi-v4_btn_repeat_shutter_default.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-hdpi-v4/btn_repeat_shutter_default.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-ldpi-v4_ic_frame_cross_quarter.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-ldpi-v4/ic_frame_cross_quarter.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/anim_slide_in_left.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/anim/slide_in_left.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/anim_slide_in_right.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/drawable_btn_shutter_video_recording.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/drawable/btn_shutter_video_recording.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/drawable_mask_circle.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/drawable/mask_circle.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4_ic_frame_cross_circle.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xhdpi-v4/ic_frame_cross_circle.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-ldpi-v4_ic_frame_circle.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-ldpi-v4/ic_frame_circle.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-mdpi-v4_ic_transparent.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-mdpi-v4/ic_transparent.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-mdpi-v4_ic_frame_circle_2.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-mdpi-v4/ic_frame_circle_2.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/drawable_transparent_rect.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/drawable/transparent_rect.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4_ic_frame_circle_2.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xhdpi-v4/ic_frame_circle_2.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xxxhdpi-v4_ic_transparent.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xxxhdpi-v4/ic_transparent.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-hdpi-v4_ic_drawer.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-hdpi-v4/ic_drawer.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xxhdpi-v4_ic_frame_cross_circle.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xxhdpi-v4/ic_frame_cross_circle.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/drawable_btn_repeat_shutter_recording.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/drawable/btn_repeat_shutter_recording.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-hdpi-v4_btn_shutter_video_default.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-hdpi-v4/btn_shutter_video_default.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-hdpi-v4_ic_transparent.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-hdpi-v4/ic_transparent.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-ldpi-v4_ic_frame_frame.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-ldpi-v4/ic_frame_frame.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xxhdpi-v4_ic_frame_cross_circle2.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xxhdpi-v4/ic_frame_cross_circle2.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4_ic_frame_frame.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xhdpi-v4/ic_frame_frame.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/anim_slide_out_left.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-hdpi-v4_ic_frame_circle_2.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-hdpi-v4/ic_frame_circle_2.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-ldpi-v4_ic_frame_cross_circle.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-ldpi-v4/ic_frame_cross_circle.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-mdpi-v4_ic_frame_cross_quarter.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-mdpi-v4/ic_frame_cross_quarter.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/drawable_toggle_slide.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/drawable/toggle_slide.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xxxhdpi-v4_ic_frame_circle.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xxxhdpi-v4/ic_frame_circle.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xxxhdpi-v4_ic_frame_cross.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xxxhdpi-v4/ic_frame_cross.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/drawable_frame_cross.9.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/drawable/frame_cross.9.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-ldpi-v4_ic_color_circle.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-ldpi-v4/ic_color_circle.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xxhdpi-v4_ic_frame_circle_2.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xxhdpi-v4/ic_frame_circle_2.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-hdpi-v4_ic_frame_cross_circle.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-hdpi-v4/ic_frame_cross_circle.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xxhdpi-v4_ic_frame_frame.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xxhdpi-v4/ic_frame_frame.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4_ic_transparent.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xhdpi-v4/ic_transparent.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/layout_listitem_device.xml.flat",
+        "source": "/home/ashish/android_projects/usbCameraSNPE/libuvccamera/build/intermediates/bundles/debug/res/layout/listitem_device.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/animator_card_flip_left_in.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/animator/card_flip_left_in.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/drawable_toggle.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/drawable/toggle.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/drawable_btn_new_shutter_video.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/drawable/btn_new_shutter_video.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xxxhdpi-v4_ic_frame_cross_circle.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xxxhdpi-v4/ic_frame_cross_circle.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/animator_card_flip_right_out.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/animator/card_flip_right_out.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-mdpi-v4_ic_frame_frame.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-mdpi-v4/ic_frame_frame.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/drawable_border_black.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/drawable/border_black.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-hdpi-v4_ic_frame_cross.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-hdpi-v4/ic_frame_cross.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-hdpi-v4_ic_increment.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-hdpi-v4/ic_increment.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/layout_list_item_bluetooth_device_info.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/layout/list_item_bluetooth_device_info.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-mdpi-v4_ic_color_circle.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-mdpi-v4/ic_color_circle.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4_ic_drawer.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xhdpi-v4/ic_drawer.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/drawable_quater_clear_rect.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/drawable/quater_clear_rect.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-hdpi-v4_btn_shutter_default.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-hdpi-v4/btn_shutter_default.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xxhdpi-v4_ic_frame_circle.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xxhdpi-v4/ic_frame_circle.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/raw_camera_click.ogg.flat",
+        "source": "/home/ashish/android_projects/usbCameraSNPE/usbCameraCommon/build/intermediates/bundles/debug/res/raw/camera_click.ogg"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/drawable_border_gray.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/drawable/border_gray.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xxxhdpi-v4_ic_frame_frame.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xxxhdpi-v4/ic_frame_frame.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/drawable_recordingtime.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/drawable/recordingtime.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/layout_color_picker.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/layout/color_picker.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/animator_card_flip_left_out.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/animator/card_flip_left_out.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xxhdpi-v4_ic_transparent.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xxhdpi-v4/ic_transparent.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-ldpi-v4_ic_transparent.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-ldpi-v4/ic_transparent.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/animator_card_flip_right_in.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/animator/card_flip_right_in.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-hdpi-v4_btn_shutter_video_pressed.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-hdpi-v4/btn_shutter_video_pressed.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xxxhdpi-v4_ic_color_circle.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xxxhdpi-v4/ic_color_circle.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xxhdpi-v4_ic_frame_cross.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xxhdpi-v4/ic_frame_cross.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xxxhdpi-v4_ic_frame_circle_2.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xxxhdpi-v4/ic_frame_circle_2.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/drawable-v21_star.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/drawable-v21/star.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xxxhdpi-v4_ic_frame_cross_quarter.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xxxhdpi-v4/ic_frame_cross_quarter.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-ldpi-v4_ic_frame_cross.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-ldpi-v4/ic_frame_cross.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/layout_item_picker.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/layout/item_picker.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4_ic_frame_cross_quarter.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xhdpi-v4/ic_frame_cross_quarter.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/layout_color_picker_dialog.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/layout/color_picker_dialog.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-hdpi-v4_btn_repeat_shutter_recording_holo.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-hdpi-v4/btn_repeat_shutter_recording_holo.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/drawable_border.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/drawable/border.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-mdpi-v4_ic_frame_cross.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-mdpi-v4/ic_frame_cross.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/drawable_btn_new_shutter.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/drawable/btn_new_shutter.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-hdpi-v4_ic_frame_circle.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-hdpi-v4/ic_frame_circle.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xxhdpi-v4_ic_frame_cross_quarter.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xxhdpi-v4/ic_frame_cross_quarter.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-hdpi-v4_btn_repeat_shutter_pressed.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-hdpi-v4/btn_repeat_shutter_pressed.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4_ic_frame_cross_circle2.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xhdpi-v4/ic_frame_cross_circle2.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/drawable_toggle_button_base.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/drawable/toggle_button_base.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/layout_seekbar_preference.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/layout/seekbar_preference.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/drawable_frame.9.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/drawable/frame.9.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xxxhdpi-v4_ic_frame_cross_circle2.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xxxhdpi-v4/ic_frame_cross_circle2.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-mdpi-v4_ic_drawer.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-mdpi-v4/ic_drawer.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-mdpi-v4_ic_frame_cross_circle2.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-mdpi-v4/ic_frame_cross_circle2.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/layout_dialog_camera.xml.flat",
+        "source": "/home/ashish/android_projects/usbCameraSNPE/libuvccamera/build/intermediates/bundles/debug/res/layout/dialog_camera.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-hdpi-v4_ic_frame_cross_circle2.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-hdpi-v4/ic_frame_cross_circle2.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/layout_view_frame_selector.xml.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/layout/view_frame_selector.xml"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-hdpi-v4_btn_video_shutter_recording_holo.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-hdpi-v4/btn_video_shutter_recording_holo.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-hdpi-v4_btn_repeat_shutter_recording_pressed_holo.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-hdpi-v4/btn_repeat_shutter_recording_pressed_holo.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-hdpi-v4_ic_color_circle.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-hdpi-v4/ic_color_circle.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-hdpi-v4_btn_shutter_pressed.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-hdpi-v4/btn_shutter_pressed.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4_ic_color_circle.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-xhdpi-v4/ic_color_circle.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/mipmap-ldpi-v4_ic_frame_cross_circle2.png.flat",
+        "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/mipmap-ldpi-v4/ic_frame_cross_circle2.png"
+    },
+    {
+        "merged": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/res/merged/androidTest/debug/xml_device_filter.xml.flat",
+        "source": "/home/ashish/android_projects/usbCameraSNPE/libuvccamera/build/intermediates/bundles/debug/res/xml/device_filter.xml"
+    }
+]

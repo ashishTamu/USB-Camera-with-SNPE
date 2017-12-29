@@ -89,7 +89,7 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
      * {@link UVCCamera#setPreviewSize(int, int, int)} throw exception
      * 0:YUYV, other:MJPEG
      */
-    private static final int PREVIEW_MODE = 1;
+    private static final int PREVIEW_MODE = 0;
 
 	protected static final int SETTINGS_HIDE_DELAY_MS = 2500;
 
@@ -151,8 +151,9 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 
 
 		setContentView(R.layout.activity_main);
-		mCameraButton = (ToggleButton)findViewById(R.id.camera_button);
-		mCameraButton.setOnCheckedChangeListener(mOnCheckedChangeListener);
+		/*ashishku mCameraButton = (ToggleButton)findViewById(R.id.camera_button);
+		mCameraButton.setOnCheckedChangeListener(mOnCheckedChangeListener);*/
+		CameraDialog.showDialog(MainActivity.this);
 		mCaptureButton = (ImageButton)findViewById(R.id.capture_button);
 		mCaptureButton.setOnClickListener(mOnClickListener);
 		mCaptureButton.setVisibility(View.INVISIBLE);
@@ -195,7 +196,7 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 		mCameraHandler.close();
 		if (mUVCCameraView != null)
 			mUVCCameraView.onPause();
-		setCameraButton(false);
+		/*ashishku setCameraButton(false);*/
 		super.onStop();
 	}
 
@@ -248,7 +249,7 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 			}
 		}
 	};
-
+/*ashishku
 	private final CompoundButton.OnCheckedChangeListener mOnCheckedChangeListener
 		= new CompoundButton.OnCheckedChangeListener() {
 		@Override
@@ -264,7 +265,7 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 				break;
 			}
 		}
-	};
+	};*/
 
 	/**
 	 * capture still image when you long click on preview image(not on buttons)
@@ -294,7 +295,7 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 						mCameraButton.setOnCheckedChangeListener(null);
 						mCameraButton.setChecked(isOn);
 					} finally {
-						mCameraButton.setOnCheckedChangeListener(mOnCheckedChangeListener);
+						//ashishku mCameraButton.setOnCheckedChangeListener(mOnCheckedChangeListener);
 					}
 				}
 				if (!isOn && (mCaptureButton != null)) {
@@ -315,6 +316,7 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 			}
 		});
 		updateItems();
+		mCameraHandler.captureStill();//ashishku
 	}
 
 	private final OnDeviceConnectListener mOnDeviceConnectListener = new OnDeviceConnectListener() {

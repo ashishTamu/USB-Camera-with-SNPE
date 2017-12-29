@@ -7,4 +7,8 @@
 package edu.ashishtamu.snpelib;
 
 public final class R {
+    public static final class string {
+        public static int app_name = 0x7f150001;
+        public static int snpe_name = 0x7f150024;
+    }
 }

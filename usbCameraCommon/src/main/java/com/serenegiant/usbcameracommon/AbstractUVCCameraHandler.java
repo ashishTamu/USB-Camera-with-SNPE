@@ -337,7 +337,10 @@ abstract class AbstractUVCCameraHandler extends Handler {
 			thread.handleStopPreview();
 			break;
 		case MSG_CAPTURE_STILL:
-			thread.handleCaptureStill((String)msg.obj);
+
+				thread.handleCaptureStill((String) msg.obj);
+				handleMessage(msg);//ashishku added ineffcient way to run in loop for right now
+
 			break;
 		case MSG_CAPTURE_START:
 			thread.handleStartRecording();
@@ -583,7 +586,7 @@ abstract class AbstractUVCCameraHandler extends Handler {
 				// get buffered output stream for saving a captured still image as a file on external storage.
 				// the file name is came from current time.
 				// You should use extension name as same as CompressFormat when calling Bitmap#compress.
-
+/*
 				final File outputFile = TextUtils.isEmpty(path)
 					? MediaMuxerWrapper.getCaptureFile(Environment.DIRECTORY_DCIM, ".png")
 					: new File(path);
@@ -597,7 +600,7 @@ abstract class AbstractUVCCameraHandler extends Handler {
 					}
 				} finally {
 					os.close();
-				}
+				}*/
 			} catch (final Exception e) {
 				callOnError(e);
 			}

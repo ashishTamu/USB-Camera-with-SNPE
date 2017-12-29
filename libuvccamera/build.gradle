@@ -50,6 +50,7 @@ android {
 			jni.srcDirs = []
 		}
 	}
+    buildToolsVersion '26.0.2'
 }
 
 tasks.withType(JavaCompile) {

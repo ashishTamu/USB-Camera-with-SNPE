@@ -26,6 +26,7 @@ import java.util.Map;
 public class SnpeHandler {
 
     private static final String TAG = SnpeHandler.class.getSimpleName();
+    private static final boolean DEBUG = true;
     /**
      * DSP run time
      * Power performance profile
@@ -111,20 +112,27 @@ public class SnpeHandler {
 
     public Map<String, FloatTensor> processTensorInput(NeuralNetwork snpeNetwork,
                                                        Bitmap bitmap) {
+
         FloatTensor tensor = snpeNetwork.createFloatTensor
                 (snpeNetwork.getInputTensorsShapes().get("Mul:0"));
+        if (DEBUG) {Log.d(TAG,"Start Preprocessing image");}
         writeRgbBitmapAsFloat(bitmap, tensor);
+        if (DEBUG) Log.d(TAG," Preprocessing image done");
         inputs.put("Mul:0", tensor);
         return inputs;
     }
 
     public Map<String, FloatTensor> executeNetwork(NeuralNetwork snpeNetwork,
                                                    Bitmap bitmap) {
+        if (DEBUG) Log.d(TAG,"Network execution start ");
         outputs = snpeNetwork.execute(processTensorInput(snpeNetwork,bitmap));
+        if (DEBUG) Log.d(TAG,"Network execution done ");
         return outputs;
     }
 
     private void writeRgbBitmapAsFloat(Bitmap bitmap, FloatTensor tensor) {
+
+
 
         int width = bitmap.getWidth();
         int height = bitmap.getHeight();

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/src/main/res/values-w820dp/dimens.xml",
+                    "from": {
+                        "startLines": "27",
+                        "startColumns": "1",
+                        "startOffsets": "1242",
+                        "endColumns": "54",
+                        "endOffsets": "1295"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                }
+            ]
+        }
+    ]
+}

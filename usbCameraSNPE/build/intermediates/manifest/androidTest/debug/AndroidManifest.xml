@@ -13,7 +13,7 @@
         android:label="Tests for com.serenegiant.usbCameraSNPE"
         android:targetPackage="com.serenegiant.usbCameraSNPE" />
 
-    <application>
+    <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
     </application>
 

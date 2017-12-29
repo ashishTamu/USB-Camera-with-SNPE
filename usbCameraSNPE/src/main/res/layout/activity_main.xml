@@ -47,7 +47,7 @@
 		android:layout_alignRight="@+id/camera_view"
 		android:layout_alignTop="@+id/camera_view"
 		android:src="@drawable/border"/>
-
+<!--
 	<ToggleButton
 		android:id="@+id/camera_button"
 		android:layout_width="wrap_content"
@@ -55,6 +55,7 @@
 		android:layout_alignBottom="@id/camera_view"
 		android:layout_alignLeft="@id/camera_view"
 		android:text="ToggleButton"/>
+		-->
 
 	<ImageButton
 		android:id="@+id/capture_button"

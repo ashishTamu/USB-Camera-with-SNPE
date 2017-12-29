@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml",
+            "map": [
+                {
+                    "source": "/home/ashish/android_projects/usbCameraSNPE/libuvccamera/build/intermediates/bundles/debug/res/values-ja/values-ja.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,94,147,186",
+                        "endColumns": "38,52,38,54",
+                        "endOffsets": "89,142,181,236"
+                    },
+                    "to": {
+                        "startLines": "3,9,32,36",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "164,656,2482,2661",
+                        "endColumns": "38,52,38,54",
+                        "endOffsets": "198,704,2516,2711"
+                    }
+                },
+                {
+                    "source": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/src/main/res/values-ja/strings.xml",
+                    "from": {
+                        "startLines": "24",
+                        "startColumns": "1",
+                        "startOffsets": "970",
+                        "endColumns": "55",
+                        "endOffsets": "1024"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "58",
+                        "endOffsets": "159"
+                    }
+                },
+                {
+                    "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/values-ja/values-ja.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,159,249,300,421,558,630,714,799,883,968,1035,1116,1206,1279,1367,1461,1554,1648,1716,1799,1873,1948,2017,2099,2187,2275,2331,2379,2424",
+                        "endColumns": "53,89,50,120,136,71,83,84,83,84,66,80,89,72,87,93,92,93,67,82,73,74,68,81,87,87,55,47,44,46",
+                        "endOffsets": "154,244,295,416,553,625,709,794,878,963,1030,1111,1201,1274,1362,1456,1549,1643,1711,1794,1868,1943,2012,2094,2182,2270,2326,2374,2419,2466"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,33,34,35",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "203,257,347,398,519,709,781,865,950,1034,1119,1186,1267,1357,1430,1518,1612,1705,1799,1867,1950,2024,2099,2168,2250,2338,2426,2521,2569,2614",
+                        "endColumns": "53,89,50,120,136,71,83,84,83,84,66,80,89,72,87,93,92,93,67,82,73,74,68,81,87,87,55,47,44,46",
+                        "endOffsets": "252,342,393,514,651,776,860,945,1029,1114,1181,1262,1352,1425,1513,1607,1700,1794,1862,1945,2019,2094,2163,2245,2333,2421,2477,2564,2609,2656"
+                    }
+                }
+            ]
+        }
+    ]
+}
