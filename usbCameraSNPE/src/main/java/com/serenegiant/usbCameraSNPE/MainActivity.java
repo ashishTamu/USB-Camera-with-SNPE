@@ -38,6 +38,7 @@ import android.view.View.OnLongClickListener;
 import android.widget.CompoundButton;
 import android.widget.ImageButton;
 import android.widget.SeekBar;
+import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
@@ -123,7 +124,7 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 	public List<String> result = new LinkedList<>();
 	public Application mApplication;
 
-
+	private TextView mResultView;
 
 
 	private View mBrightnessButton, mContrastButton;
@@ -153,6 +154,8 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 		setContentView(R.layout.activity_main);
 		/*ashishku mCameraButton = (ToggleButton)findViewById(R.id.camera_button);
 		mCameraButton.setOnCheckedChangeListener(mOnCheckedChangeListener);*/
+
+
 		CameraDialog.showDialog(MainActivity.this);
 		mCaptureButton = (ImageButton)findViewById(R.id.capture_button);
 		mCaptureButton.setOnClickListener(mOnClickListener);
@@ -176,9 +179,16 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 		mValueLayout = findViewById(R.id.value_layout);
 		mValueLayout.setVisibility(View.INVISIBLE);
 
+
+        //ashishku added for display of result
+        mResultView = (TextView) findViewById(R.id.resultView);
+
+
 		mUSBMonitor = new USBMonitor(this, mOnDeviceConnectListener);
 		mCameraHandler = UVCCameraHandler.createHandler(this, mUVCCameraView,
-			USE_SURFACE_ENCODER ? 0 : 1, PREVIEW_WIDTH, PREVIEW_HEIGHT, PREVIEW_MODE, mSnpeHandler, mNetwork);
+			USE_SURFACE_ENCODER ? 0 : 1, PREVIEW_WIDTH, PREVIEW_HEIGHT, PREVIEW_MODE, mSnpeHandler, mResultView);
+
+
 	}
 
 	@Override
@@ -317,6 +327,7 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 		});
 		updateItems();
 		mCameraHandler.captureStill();//ashishku
+
 	}
 
 	private final OnDeviceConnectListener mOnDeviceConnectListener = new OnDeviceConnectListener() {
@@ -412,6 +423,7 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 			mContrastButton.setVisibility(
 		    	checkSupportFlag(UVCCamera.PU_CONTRAST)
 		    	? visible_active : View.INVISIBLE);
+
 		}
 	};
 

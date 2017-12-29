@@ -23,4 +23,5 @@
 
 <resources>
 	<string name="app_name">usbCameraSNPE</string>
+	<string name="help_message">Results will be displayed here</string>
 </resources>

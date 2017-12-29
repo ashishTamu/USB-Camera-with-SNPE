@@ -88,13 +88,27 @@ public final class R {
      */
     public static final int aspect_ratio=0x7f03000b;
     /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>any</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>back</td><td>63</td><td></td></tr>
+     * <tr><td>front</td><td>62</td><td></td></tr>
+     * </table>
+     */
+    public static final int camera_id=0x7f03000c;
+    /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int default_value=0x7f03000c;
+    public static final int default_value=0x7f03000d;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      * <p>Must be one of the following constant values.</p>
@@ -110,17 +124,17 @@ public final class R {
      * <tr><td>split</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int displayMode=0x7f03000d;
+    public static final int displayMode=0x7f03000e;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int enableSubWindow=0x7f03000e;
+    public static final int enableSubWindow=0x7f03000f;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int flipChildPos=0x7f03000f;
+    public static final int flipChildPos=0x7f030010;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -131,7 +145,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int frame_color=0x7f030010;
+    public static final int frame_color=0x7f030011;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -149,7 +163,7 @@ public final class R {
      * <tr><td>frame_type_none</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int frame_type=0x7f030011;
+    public static final int frame_type=0x7f030012;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -157,17 +171,17 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int frame_width=0x7f030012;
+    public static final int frame_width=0x7f030013;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int handle_touch_event=0x7f030013;
+    public static final int handle_touch_event=0x7f030014;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layoutManager=0x7f030014;
+    public static final int layoutManager=0x7f030015;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -177,7 +191,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int listDivider=0x7f030015;
+    public static final int listDivider=0x7f030016;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -185,7 +199,7 @@ public final class R {
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int max_value=0x7f030016;
+    public static final int max_value=0x7f030017;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -193,7 +207,7 @@ public final class R {
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int min_value=0x7f030017;
+    public static final int min_value=0x7f030018;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      * <p>Must be one of the following constant values.</p>
@@ -206,12 +220,12 @@ public final class R {
      * <tr><td>vertical</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int orientation=0x7f030018;
+    public static final int orientation=0x7f030019;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int reverseLayout=0x7f030019;
+    public static final int reverseLayout=0x7f03001a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -222,7 +236,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int scale_color=0x7f03001a;
+    public static final int scale_color=0x7f03001b;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -235,15 +249,15 @@ public final class R {
      * <tr><td>stretch_to_fit</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int scale_mode=0x7f03001b;
+    public static final int scale_mode=0x7f03001c;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int scale_rotation=0x7f03001c;
+    public static final int scale_rotation=0x7f03001d;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int scale_scale=0x7f03001d;
+    public static final int scale_scale=0x7f03001e;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -256,11 +270,11 @@ public final class R {
      * <tr><td>scale_none</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int scale_type=0x7f03001e;
+    public static final int scale_type=0x7f03001f;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int scale_value=0x7f03001f;
+    public static final int scale_value=0x7f030020;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -268,41 +282,46 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int scale_width=0x7f030020;
+    public static final int scale_width=0x7f030021;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int seekbar_id=0x7f030021;
+    public static final int seekbar_id=0x7f030022;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int seekbar_label_id=0x7f030022;
+    public static final int seekbar_label_id=0x7f030023;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int seekbar_layout=0x7f030023;
-    /**
-     * <p>May be an integer value, such as "<code>100</code>".
-     */
-    public static final int spanCount=0x7f030024;
+    public static final int seekbar_layout=0x7f030024;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int stackFromEnd=0x7f030025;
+    public static final int show_fps=0x7f030025;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int spanCount=0x7f030026;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int stackFromEnd=0x7f030027;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int subWindowScale=0x7f030026;
+    public static final int subWindowScale=0x7f030028;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -313,7 +332,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tick_color=0x7f030027;
+    public static final int tick_color=0x7f030029;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -322,7 +341,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int value_format=0x7f030028;
+    public static final int value_format=0x7f03002a;
   }
   public static final class color {
     public static final int ALICEBLUE=0x7f040000;
@@ -900,68 +919,71 @@ public final class R {
     public static final int anim_duration=0x7f070002;
     public static final int anim_listener=0x7f070003;
     public static final int anim_type=0x7f070004;
-    public static final int color1_button=0x7f070005;
-    public static final int color2_button=0x7f070006;
-    public static final int color3_button=0x7f070007;
-    public static final int color4_button=0x7f070008;
-    public static final int color5_button=0x7f070009;
-    public static final int color6_button=0x7f07000a;
-    public static final int color7_button=0x7f07000b;
-    public static final int color8_button=0x7f07000c;
-    public static final int color_picker=0x7f07000d;
-    public static final int color_picker_frame=0x7f07000e;
-    public static final int color_select_button=0x7f07000f;
-    public static final int crop_center=0x7f070010;
-    public static final int decrement=0x7f070011;
-    public static final int dummy_radiobutton=0x7f070012;
-    public static final int frame_circle2_button=0x7f070013;
-    public static final int frame_circle_button=0x7f070014;
-    public static final int frame_cross_button=0x7f070015;
-    public static final int frame_cross_circle2_button=0x7f070016;
-    public static final int frame_cross_circle_button=0x7f070017;
-    public static final int frame_cross_quarter_button=0x7f070018;
-    public static final int frame_frame_button=0x7f070019;
-    public static final int frame_type_circle=0x7f07001a;
-    public static final int frame_type_circle2=0x7f07001b;
-    public static final int frame_type_cross_circle=0x7f07001c;
-    public static final int frame_type_cross_circle2=0x7f07001d;
-    public static final int frame_type_cross_full=0x7f07001e;
-    public static final int frame_type_cross_quarter=0x7f07001f;
-    public static final int frame_type_frame=0x7f070020;
-    public static final int frame_type_none=0x7f070021;
-    public static final int has_divider=0x7f070022;
-    public static final int horizontal=0x7f070023;
-    public static final int icon=0x7f070024;
-    public static final int increment=0x7f070025;
-    public static final int input=0x7f070026;
-    public static final int item_touch_helper_previous_elevation=0x7f070027;
-    public static final int keep_aspect=0x7f070028;
-    public static final int line_width_seekbar=0x7f070029;
-    public static final int line_width_textview=0x7f07002a;
-    public static final int mediastorephotoadapter=0x7f07002b;
-    public static final int name=0x7f07002c;
-    public static final int name_text=0x7f07002d;
-    public static final int position=0x7f07002e;
-    public static final int scale_inch=0x7f07002f;
-    public static final int scale_mm=0x7f070030;
-    public static final int scale_none=0x7f070031;
-    public static final int scale_type_inch_radiobutton=0x7f070032;
-    public static final int scale_type_mm_radiobutton=0x7f070033;
-    public static final int scale_type_non_radiobutton=0x7f070034;
-    public static final int scale_type_radiogroup=0x7f070035;
-    public static final int seekbar=0x7f070036;
-    public static final int seekbar_value_label=0x7f070037;
-    public static final int select1=0x7f070038;
-    public static final int select2=0x7f070039;
-    public static final int single1=0x7f07003a;
-    public static final int single2=0x7f07003b;
-    public static final int spinner1=0x7f07003c;
-    public static final int split=0x7f07003d;
-    public static final int stretch_to_fit=0x7f07003e;
-    public static final int textView1=0x7f07003f;
-    public static final int thumbnail=0x7f070040;
-    public static final int title=0x7f070041;
-    public static final int vertical=0x7f070042;
+    public static final int any=0x7f070005;
+    public static final int back=0x7f070006;
+    public static final int color1_button=0x7f070007;
+    public static final int color2_button=0x7f070008;
+    public static final int color3_button=0x7f070009;
+    public static final int color4_button=0x7f07000a;
+    public static final int color5_button=0x7f07000b;
+    public static final int color6_button=0x7f07000c;
+    public static final int color7_button=0x7f07000d;
+    public static final int color8_button=0x7f07000e;
+    public static final int color_picker=0x7f07000f;
+    public static final int color_picker_frame=0x7f070010;
+    public static final int color_select_button=0x7f070011;
+    public static final int crop_center=0x7f070012;
+    public static final int decrement=0x7f070013;
+    public static final int dummy_radiobutton=0x7f070014;
+    public static final int frame_circle2_button=0x7f070015;
+    public static final int frame_circle_button=0x7f070016;
+    public static final int frame_cross_button=0x7f070017;
+    public static final int frame_cross_circle2_button=0x7f070018;
+    public static final int frame_cross_circle_button=0x7f070019;
+    public static final int frame_cross_quarter_button=0x7f07001a;
+    public static final int frame_frame_button=0x7f07001b;
+    public static final int frame_type_circle=0x7f07001c;
+    public static final int frame_type_circle2=0x7f07001d;
+    public static final int frame_type_cross_circle=0x7f07001e;
+    public static final int frame_type_cross_circle2=0x7f07001f;
+    public static final int frame_type_cross_full=0x7f070020;
+    public static final int frame_type_cross_quarter=0x7f070021;
+    public static final int frame_type_frame=0x7f070022;
+    public static final int frame_type_none=0x7f070023;
+    public static final int front=0x7f070024;
+    public static final int has_divider=0x7f070025;
+    public static final int horizontal=0x7f070026;
+    public static final int icon=0x7f070027;
+    public static final int increment=0x7f070028;
+    public static final int input=0x7f070029;
+    public static final int item_touch_helper_previous_elevation=0x7f07002a;
+    public static final int keep_aspect=0x7f07002b;
+    public static final int line_width_seekbar=0x7f07002c;
+    public static final int line_width_textview=0x7f07002d;
+    public static final int mediastorephotoadapter=0x7f07002e;
+    public static final int name=0x7f07002f;
+    public static final int name_text=0x7f070030;
+    public static final int position=0x7f070031;
+    public static final int scale_inch=0x7f070032;
+    public static final int scale_mm=0x7f070033;
+    public static final int scale_none=0x7f070034;
+    public static final int scale_type_inch_radiobutton=0x7f070035;
+    public static final int scale_type_mm_radiobutton=0x7f070036;
+    public static final int scale_type_non_radiobutton=0x7f070037;
+    public static final int scale_type_radiogroup=0x7f070038;
+    public static final int seekbar=0x7f070039;
+    public static final int seekbar_value_label=0x7f07003a;
+    public static final int select1=0x7f07003b;
+    public static final int select2=0x7f07003c;
+    public static final int single1=0x7f07003d;
+    public static final int single2=0x7f07003e;
+    public static final int spinner1=0x7f07003f;
+    public static final int split=0x7f070040;
+    public static final int stretch_to_fit=0x7f070041;
+    public static final int textView1=0x7f070042;
+    public static final int thumbnail=0x7f070043;
+    public static final int title=0x7f070044;
+    public static final int vertical=0x7f070045;
   }
   public static final class integer {
     public static final int card_flip_time_full=0x7f080000;
@@ -1061,7 +1083,7 @@ public final class R {
      * @see #AspectScaledTextureView_scale_mode
      */
     public static final int[] AspectScaledTextureView={
-        0x7f03000b, 0x7f03001b
+        0x7f03000b, 0x7f03001c
       };
     /**
      * <p>This symbol is the offset where the {@link com.serenegiant.usbcameracommon.test.R.attr#aspect_ratio}
@@ -1091,6 +1113,51 @@ public final class R {
      */
     public static final int AspectScaledTextureView_scale_mode=1;
     /**
+     * Attributes that can be used with a CameraBridgeViewBase.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #CameraBridgeViewBase_camera_id com.serenegiant.usbcameracommon.test:camera_id}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CameraBridgeViewBase_show_fps com.serenegiant.usbcameracommon.test:show_fps}</code></td><td></td></tr>
+     * </table>
+     * @see #CameraBridgeViewBase_camera_id
+     * @see #CameraBridgeViewBase_show_fps
+     */
+    public static final int[] CameraBridgeViewBase={
+        0x7f03000c, 0x7f030025
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.serenegiant.usbcameracommon.test.R.attr#camera_id}
+     * attribute's value can be found in the {@link #CameraBridgeViewBase} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>any</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>back</td><td>63</td><td></td></tr>
+     * <tr><td>front</td><td>62</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.serenegiant.usbcameracommon.test:camera_id
+     */
+    public static final int CameraBridgeViewBase_camera_id=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.serenegiant.usbcameracommon.test.R.attr#show_fps}
+     * attribute's value can be found in the {@link #CameraBridgeViewBase} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.serenegiant.usbcameracommon.test:show_fps
+     */
+    public static final int CameraBridgeViewBase_show_fps=1;
+    /**
      * Attributes that can be used with a FrameView.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -1118,9 +1185,9 @@ public final class R {
      * @see #FrameView_tick_color
      */
     public static final int[] FrameView={
-        0x7f030010, 0x7f030011, 0x7f030012, 0x7f03001a, 
-        0x7f03001c, 0x7f03001d, 0x7f03001e, 0x7f030020, 
-        0x7f030027
+        0x7f030011, 0x7f030012, 0x7f030013, 0x7f03001b, 
+        0x7f03001d, 0x7f03001e, 0x7f03001f, 0x7f030021, 
+        0x7f030029
       };
     /**
      * <p>This symbol is the offset where the {@link com.serenegiant.usbcameracommon.test.R.attr#frame_color}
@@ -1290,7 +1357,7 @@ public final class R {
      * @see #IScaledView_scale_mode
      */
     public static final int[] IScaledView={
-        0x7f03001b
+        0x7f03001c
       };
     /**
      * <p>This symbol is the offset where the {@link com.serenegiant.usbcameracommon.test.R.attr#scale_mode}
@@ -1464,7 +1531,7 @@ public final class R {
      * @see #RecycleViewWithEmptyView_listDivider
      */
     public static final int[] RecycleViewWithEmptyView={
-        0x7f030015
+        0x7f030016
       };
     /**
      * <p>This symbol is the offset where the {@link com.serenegiant.usbcameracommon.test.R.attr#listDivider}
@@ -1503,8 +1570,8 @@ public final class R {
      * @see #RecyclerView_stackFromEnd
      */
     public static final int[] RecyclerView={
-        0x010100c4, 0x010100f1, 0x7f030014, 0x7f030019, 
-        0x7f030024, 0x7f030025
+        0x010100c4, 0x010100f1, 0x7f030015, 0x7f03001a, 
+        0x7f030026, 0x7f030027
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#descendantFocusability}
@@ -1606,8 +1673,8 @@ public final class R {
      * @see #SeekBarPreference_value_format
      */
     public static final int[] SeekBarPreference={
-        0x7f03000c, 0x7f030016, 0x7f030017, 0x7f03001f, 
-        0x7f030021, 0x7f030022, 0x7f030023, 0x7f030028
+        0x7f03000d, 0x7f030017, 0x7f030018, 0x7f030020, 
+        0x7f030022, 0x7f030023, 0x7f030024, 0x7f03002a
       };
     /**
      * <p>This symbol is the offset where the {@link com.serenegiant.usbcameracommon.test.R.attr#default_value}
@@ -1750,8 +1817,8 @@ public final class R {
      * @see #TwoPainViewGroup_subWindowScale
      */
     public static final int[] TwoPainViewGroup={
-        0x7f03000d, 0x7f03000e, 0x7f03000f, 0x7f030018, 
-        0x7f030026
+        0x7f03000e, 0x7f03000f, 0x7f030010, 0x7f030019, 
+        0x7f030028
       };
     /**
      * <p>This symbol is the offset where the {@link com.serenegiant.usbcameracommon.test.R.attr#displayMode}
@@ -1837,7 +1904,7 @@ public final class R {
      * @see #ZoomAspectScaledTextureView_scale_mode
      */
     public static final int[] ZoomAspectScaledTextureView={
-        0x7f03000b, 0x7f030013, 0x7f03001b
+        0x7f03000b, 0x7f030014, 0x7f03001c
       };
     /**
      * <p>This symbol is the offset where the {@link com.serenegiant.usbcameracommon.test.R.attr#aspect_ratio}

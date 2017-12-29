@@ -54,5 +54,6 @@ dependencies {
 
     compile project(':libuvccamera')
     compile project(':snpelibrary')
+    compile project(':openCVLibrary340')
 
 }

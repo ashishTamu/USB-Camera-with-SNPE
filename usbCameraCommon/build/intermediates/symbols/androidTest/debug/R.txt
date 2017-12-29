@@ -18,35 +18,37 @@ int attr ItemPickerMinItemValue 0x7f030008
 int attr ItemPickerSpeed 0x7f030009
 int attr TimePickerDefaultValue 0x7f03000a
 int attr aspect_ratio 0x7f03000b
-int attr default_value 0x7f03000c
-int attr displayMode 0x7f03000d
-int attr enableSubWindow 0x7f03000e
-int attr flipChildPos 0x7f03000f
-int attr frame_color 0x7f030010
-int attr frame_type 0x7f030011
-int attr frame_width 0x7f030012
-int attr handle_touch_event 0x7f030013
-int attr layoutManager 0x7f030014
-int attr listDivider 0x7f030015
-int attr max_value 0x7f030016
-int attr min_value 0x7f030017
-int attr orientation 0x7f030018
-int attr reverseLayout 0x7f030019
-int attr scale_color 0x7f03001a
-int attr scale_mode 0x7f03001b
-int attr scale_rotation 0x7f03001c
-int attr scale_scale 0x7f03001d
-int attr scale_type 0x7f03001e
-int attr scale_value 0x7f03001f
-int attr scale_width 0x7f030020
-int attr seekbar_id 0x7f030021
-int attr seekbar_label_id 0x7f030022
-int attr seekbar_layout 0x7f030023
-int attr spanCount 0x7f030024
-int attr stackFromEnd 0x7f030025
-int attr subWindowScale 0x7f030026
-int attr tick_color 0x7f030027
-int attr value_format 0x7f030028
+int attr camera_id 0x7f03000c
+int attr default_value 0x7f03000d
+int attr displayMode 0x7f03000e
+int attr enableSubWindow 0x7f03000f
+int attr flipChildPos 0x7f030010
+int attr frame_color 0x7f030011
+int attr frame_type 0x7f030012
+int attr frame_width 0x7f030013
+int attr handle_touch_event 0x7f030014
+int attr layoutManager 0x7f030015
+int attr listDivider 0x7f030016
+int attr max_value 0x7f030017
+int attr min_value 0x7f030018
+int attr orientation 0x7f030019
+int attr reverseLayout 0x7f03001a
+int attr scale_color 0x7f03001b
+int attr scale_mode 0x7f03001c
+int attr scale_rotation 0x7f03001d
+int attr scale_scale 0x7f03001e
+int attr scale_type 0x7f03001f
+int attr scale_value 0x7f030020
+int attr scale_width 0x7f030021
+int attr seekbar_id 0x7f030022
+int attr seekbar_label_id 0x7f030023
+int attr seekbar_layout 0x7f030024
+int attr show_fps 0x7f030025
+int attr spanCount 0x7f030026
+int attr stackFromEnd 0x7f030027
+int attr subWindowScale 0x7f030028
+int attr tick_color 0x7f030029
+int attr value_format 0x7f03002a
 int color ALICEBLUE 0x7f040000
 int color ANTIQUEWHITE 0x7f040001
 int color AQUA 0x7f040002
@@ -616,68 +618,71 @@ int id address 0x7f070001
 int id anim_duration 0x7f070002
 int id anim_listener 0x7f070003
 int id anim_type 0x7f070004
-int id color1_button 0x7f070005
-int id color2_button 0x7f070006
-int id color3_button 0x7f070007
-int id color4_button 0x7f070008
-int id color5_button 0x7f070009
-int id color6_button 0x7f07000a
-int id color7_button 0x7f07000b
-int id color8_button 0x7f07000c
-int id color_picker 0x7f07000d
-int id color_picker_frame 0x7f07000e
-int id color_select_button 0x7f07000f
-int id crop_center 0x7f070010
-int id decrement 0x7f070011
-int id dummy_radiobutton 0x7f070012
-int id frame_circle2_button 0x7f070013
-int id frame_circle_button 0x7f070014
-int id frame_cross_button 0x7f070015
-int id frame_cross_circle2_button 0x7f070016
-int id frame_cross_circle_button 0x7f070017
-int id frame_cross_quarter_button 0x7f070018
-int id frame_frame_button 0x7f070019
-int id frame_type_circle 0x7f07001a
-int id frame_type_circle2 0x7f07001b
-int id frame_type_cross_circle 0x7f07001c
-int id frame_type_cross_circle2 0x7f07001d
-int id frame_type_cross_full 0x7f07001e
-int id frame_type_cross_quarter 0x7f07001f
-int id frame_type_frame 0x7f070020
-int id frame_type_none 0x7f070021
-int id has_divider 0x7f070022
-int id horizontal 0x7f070023
-int id icon 0x7f070024
-int id increment 0x7f070025
-int id input 0x7f070026
-int id item_touch_helper_previous_elevation 0x7f070027
-int id keep_aspect 0x7f070028
-int id line_width_seekbar 0x7f070029
-int id line_width_textview 0x7f07002a
-int id mediastorephotoadapter 0x7f07002b
-int id name 0x7f07002c
-int id name_text 0x7f07002d
-int id position 0x7f07002e
-int id scale_inch 0x7f07002f
-int id scale_mm 0x7f070030
-int id scale_none 0x7f070031
-int id scale_type_inch_radiobutton 0x7f070032
-int id scale_type_mm_radiobutton 0x7f070033
-int id scale_type_non_radiobutton 0x7f070034
-int id scale_type_radiogroup 0x7f070035
-int id seekbar 0x7f070036
-int id seekbar_value_label 0x7f070037
-int id select1 0x7f070038
-int id select2 0x7f070039
-int id single1 0x7f07003a
-int id single2 0x7f07003b
-int id spinner1 0x7f07003c
-int id split 0x7f07003d
-int id stretch_to_fit 0x7f07003e
-int id textView1 0x7f07003f
-int id thumbnail 0x7f070040
-int id title 0x7f070041
-int id vertical 0x7f070042
+int id any 0x7f070005
+int id back 0x7f070006
+int id color1_button 0x7f070007
+int id color2_button 0x7f070008
+int id color3_button 0x7f070009
+int id color4_button 0x7f07000a
+int id color5_button 0x7f07000b
+int id color6_button 0x7f07000c
+int id color7_button 0x7f07000d
+int id color8_button 0x7f07000e
+int id color_picker 0x7f07000f
+int id color_picker_frame 0x7f070010
+int id color_select_button 0x7f070011
+int id crop_center 0x7f070012
+int id decrement 0x7f070013
+int id dummy_radiobutton 0x7f070014
+int id frame_circle2_button 0x7f070015
+int id frame_circle_button 0x7f070016
+int id frame_cross_button 0x7f070017
+int id frame_cross_circle2_button 0x7f070018
+int id frame_cross_circle_button 0x7f070019
+int id frame_cross_quarter_button 0x7f07001a
+int id frame_frame_button 0x7f07001b
+int id frame_type_circle 0x7f07001c
+int id frame_type_circle2 0x7f07001d
+int id frame_type_cross_circle 0x7f07001e
+int id frame_type_cross_circle2 0x7f07001f
+int id frame_type_cross_full 0x7f070020
+int id frame_type_cross_quarter 0x7f070021
+int id frame_type_frame 0x7f070022
+int id frame_type_none 0x7f070023
+int id front 0x7f070024
+int id has_divider 0x7f070025
+int id horizontal 0x7f070026
+int id icon 0x7f070027
+int id increment 0x7f070028
+int id input 0x7f070029
+int id item_touch_helper_previous_elevation 0x7f07002a
+int id keep_aspect 0x7f07002b
+int id line_width_seekbar 0x7f07002c
+int id line_width_textview 0x7f07002d
+int id mediastorephotoadapter 0x7f07002e
+int id name 0x7f07002f
+int id name_text 0x7f070030
+int id position 0x7f070031
+int id scale_inch 0x7f070032
+int id scale_mm 0x7f070033
+int id scale_none 0x7f070034
+int id scale_type_inch_radiobutton 0x7f070035
+int id scale_type_mm_radiobutton 0x7f070036
+int id scale_type_non_radiobutton 0x7f070037
+int id scale_type_radiogroup 0x7f070038
+int id seekbar 0x7f070039
+int id seekbar_value_label 0x7f07003a
+int id select1 0x7f07003b
+int id select2 0x7f07003c
+int id single1 0x7f07003d
+int id single2 0x7f07003e
+int id spinner1 0x7f07003f
+int id split 0x7f070040
+int id stretch_to_fit 0x7f070041
+int id textView1 0x7f070042
+int id thumbnail 0x7f070043
+int id title 0x7f070044
+int id vertical 0x7f070045
 int integer card_flip_time_full 0x7f080000
 int integer card_flip_time_half 0x7f080001
 int layout color_picker 0x7f090000
@@ -749,10 +754,13 @@ int string select 0x7f0c0022
 int string snpe_name 0x7f0c0023
 int style SeekBarPreference_summary 0x7f0d0000
 int style SeekBarPreference_title 0x7f0d0001
-int[] styleable AspectScaledTextureView { 0x7f03000b, 0x7f03001b }
+int[] styleable AspectScaledTextureView { 0x7f03000b, 0x7f03001c }
 int styleable AspectScaledTextureView_aspect_ratio 0
 int styleable AspectScaledTextureView_scale_mode 1
-int[] styleable FrameView { 0x7f030010, 0x7f030011, 0x7f030012, 0x7f03001a, 0x7f03001c, 0x7f03001d, 0x7f03001e, 0x7f030020, 0x7f030027 }
+int[] styleable CameraBridgeViewBase { 0x7f03000c, 0x7f030025 }
+int styleable CameraBridgeViewBase_camera_id 0
+int styleable CameraBridgeViewBase_show_fps 1
+int[] styleable FrameView { 0x7f030011, 0x7f030012, 0x7f030013, 0x7f03001b, 0x7f03001d, 0x7f03001e, 0x7f03001f, 0x7f030021, 0x7f030029 }
 int styleable FrameView_frame_color 0
 int styleable FrameView_frame_type 1
 int styleable FrameView_frame_width 2
@@ -764,7 +772,7 @@ int styleable FrameView_scale_width 7
 int styleable FrameView_tick_color 8
 int[] styleable IAspectRatioView { 0x7f03000b }
 int styleable IAspectRatioView_aspect_ratio 0
-int[] styleable IScaledView { 0x7f03001b }
+int[] styleable IScaledView { 0x7f03001c }
 int styleable IScaledView_scale_mode 0
 int[] styleable ItemPicker { 0x7f030000, 0x7f030001, 0x7f030002, 0x7f030003, 0x7f030004, 0x7f030005, 0x7f030006, 0x7f030007, 0x7f030008, 0x7f030009 }
 int styleable ItemPicker_ItemPickerCurrentItemValue 0
@@ -777,16 +785,16 @@ int styleable ItemPicker_ItemPickerIncrementSrc 6
 int styleable ItemPicker_ItemPickerMaxItemValue 7
 int styleable ItemPicker_ItemPickerMinItemValue 8
 int styleable ItemPicker_ItemPickerSpeed 9
-int[] styleable RecycleViewWithEmptyView { 0x7f030015 }
+int[] styleable RecycleViewWithEmptyView { 0x7f030016 }
 int styleable RecycleViewWithEmptyView_listDivider 0
-int[] styleable RecyclerView { 0x010100c4, 0x010100f1, 0x7f030014, 0x7f030019, 0x7f030024, 0x7f030025 }
+int[] styleable RecyclerView { 0x010100c4, 0x010100f1, 0x7f030015, 0x7f03001a, 0x7f030026, 0x7f030027 }
 int styleable RecyclerView_android_orientation 0
 int styleable RecyclerView_android_descendantFocusability 1
 int styleable RecyclerView_layoutManager 2
 int styleable RecyclerView_reverseLayout 3
 int styleable RecyclerView_spanCount 4
 int styleable RecyclerView_stackFromEnd 5
-int[] styleable SeekBarPreference { 0x7f03000c, 0x7f030016, 0x7f030017, 0x7f03001f, 0x7f030021, 0x7f030022, 0x7f030023, 0x7f030028 }
+int[] styleable SeekBarPreference { 0x7f03000d, 0x7f030017, 0x7f030018, 0x7f030020, 0x7f030022, 0x7f030023, 0x7f030024, 0x7f03002a }
 int styleable SeekBarPreference_default_value 0
 int styleable SeekBarPreference_max_value 1
 int styleable SeekBarPreference_min_value 2
@@ -797,13 +805,13 @@ int styleable SeekBarPreference_seekbar_layout 6
 int styleable SeekBarPreference_value_format 7
 int[] styleable TimePicker { 0x7f03000a }
 int styleable TimePicker_TimePickerDefaultValue 0
-int[] styleable TwoPainViewGroup { 0x7f03000d, 0x7f03000e, 0x7f03000f, 0x7f030018, 0x7f030026 }
+int[] styleable TwoPainViewGroup { 0x7f03000e, 0x7f03000f, 0x7f030010, 0x7f030019, 0x7f030028 }
 int styleable TwoPainViewGroup_displayMode 0
 int styleable TwoPainViewGroup_enableSubWindow 1
 int styleable TwoPainViewGroup_flipChildPos 2
 int styleable TwoPainViewGroup_orientation 3
 int styleable TwoPainViewGroup_subWindowScale 4
-int[] styleable ZoomAspectScaledTextureView { 0x7f03000b, 0x7f030013, 0x7f03001b }
+int[] styleable ZoomAspectScaledTextureView { 0x7f03000b, 0x7f030014, 0x7f03001c }
 int styleable ZoomAspectScaledTextureView_aspect_ratio 0
 int styleable ZoomAspectScaledTextureView_handle_touch_event 1
 int styleable ZoomAspectScaledTextureView_scale_mode 2

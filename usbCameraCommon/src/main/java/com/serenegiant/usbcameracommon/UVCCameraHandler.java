@@ -25,7 +25,7 @@ package com.serenegiant.usbcameracommon;
 
 import android.app.Activity;
 
-import com.qualcomm.qti.snpe.NeuralNetwork;
+import android.widget.TextView;
 import com.serenegiant.usb.UVCCamera;
 import com.serenegiant.widget.CameraViewInterface;
 
@@ -43,9 +43,9 @@ public class UVCCameraHandler extends AbstractUVCCameraHandler {
 	 */
 	public static final UVCCameraHandler createHandler(
 			final Activity parent, final CameraViewInterface cameraView,
-			final int width, final int height,SnpeHandler snpeHandler, NeuralNetwork network) {
+			final int width, final int height,SnpeHandler snpeHandler, TextView resultView) {
 
-		return createHandler(parent, cameraView, 1, width, height, UVCCamera.FRAME_FORMAT_MJPEG, UVCCamera.DEFAULT_BANDWIDTH,snpeHandler,network);
+		return createHandler(parent, cameraView, 1, width, height, UVCCamera.FRAME_FORMAT_MJPEG, UVCCamera.DEFAULT_BANDWIDTH,snpeHandler,resultView);
 	}
 
 	/**
@@ -59,9 +59,9 @@ public class UVCCameraHandler extends AbstractUVCCameraHandler {
 	 */
 	public static final UVCCameraHandler createHandler(
 			final Activity parent, final CameraViewInterface cameraView,
-			final int width, final int height, final float bandwidthFactor,SnpeHandler snpeHandler, NeuralNetwork network) {
+			final int width, final int height, final float bandwidthFactor,SnpeHandler snpeHandler, TextView resultView) {
 
-		return createHandler(parent, cameraView, 1, width, height, UVCCamera.FRAME_FORMAT_MJPEG, bandwidthFactor,snpeHandler,network);
+		return createHandler(parent, cameraView, 1, width, height, UVCCamera.FRAME_FORMAT_MJPEG, bandwidthFactor,snpeHandler,resultView);
 	}
 
 	/**
@@ -75,9 +75,9 @@ public class UVCCameraHandler extends AbstractUVCCameraHandler {
 	 */
 	public static final UVCCameraHandler createHandler(
 			final Activity parent, final CameraViewInterface cameraView,
-			final int encoderType, final int width, final int height,SnpeHandler snpeHandler, NeuralNetwork network) {
+			final int encoderType, final int width, final int height,SnpeHandler snpeHandler, TextView resultView) {
 
-		return createHandler(parent, cameraView, encoderType, width, height, UVCCamera.FRAME_FORMAT_MJPEG, UVCCamera.DEFAULT_BANDWIDTH,snpeHandler,network);
+		return createHandler(parent, cameraView, encoderType, width, height, UVCCamera.FRAME_FORMAT_MJPEG, UVCCamera.DEFAULT_BANDWIDTH,snpeHandler,resultView);
 	}
 
 	/**
@@ -92,9 +92,9 @@ public class UVCCameraHandler extends AbstractUVCCameraHandler {
 	 */
 	public static final UVCCameraHandler createHandler(
 			final Activity parent, final CameraViewInterface cameraView,
-			final int encoderType, final int width, final int height, final int format, SnpeHandler snpeHandler, NeuralNetwork network) {
+			final int encoderType, final int width, final int height, final int format, SnpeHandler snpeHandler, TextView resultView) {
 
-		return createHandler(parent, cameraView, encoderType, width, height, format, UVCCamera.DEFAULT_BANDWIDTH,snpeHandler,network);
+		return createHandler(parent, cameraView, encoderType, width, height, format, UVCCamera.DEFAULT_BANDWIDTH,snpeHandler,resultView);
 	}
 
 	/**
@@ -110,9 +110,9 @@ public class UVCCameraHandler extends AbstractUVCCameraHandler {
 	 */
 	public static final UVCCameraHandler createHandler(
 			final Activity parent, final CameraViewInterface cameraView,
-			final int encoderType, final int width, final int height, final int format, final float bandwidthFactor,SnpeHandler snpeHandler, NeuralNetwork network) {
+			final int encoderType, final int width, final int height, final int format, final float bandwidthFactor,SnpeHandler snpeHandler, TextView resultView) {
 
-		final CameraThread thread = new CameraThread(UVCCameraHandler.class, parent, cameraView, encoderType, width, height, format, bandwidthFactor,snpeHandler,network);
+		final CameraThread thread = new CameraThread(UVCCameraHandler.class, parent, cameraView, encoderType, width, height, format, bandwidthFactor,snpeHandler,resultView);
 		thread.start();
 		return (UVCCameraHandler)thread.getHandler();
 	}

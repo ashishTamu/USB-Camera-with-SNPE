@@ -540,6 +540,11 @@
     <color name="viewfinder_laser">#ffcc0000</color>
     <color name="viewfinder_mask">#60000000</color>
     <declare-styleable name="AspectScaledTextureView"><attr name="aspect_ratio"/><attr name="scale_mode"/></declare-styleable>
+    <declare-styleable name="CameraBridgeViewBase"><attr format="boolean" name="show_fps"/><attr format="integer" name="camera_id">
+          <enum name="any" value="-1"/>
+          <enum name="back" value="99"/>
+          <enum name="front" value="98"/>
+       </attr></declare-styleable>
     <declare-styleable name="FrameView"><attr default="frame_type_frame" name="frame_type">
 			<enum name="frame_type_none" value="0"/>
 			<enum name="frame_type_frame" value="1"/>
@@ -623,6 +628,7 @@
     <string name="color_picker_select">Select</string>
     <string name="color_swatch_description">Color <ns1:g example="14" id="color_index">%1$d</ns1:g></string>
     <string name="color_swatch_description_selected">Color <ns1:g example="14" id="color_index">%1$d</ns1:g> selected</string>
+    <string name="help_message">Results will be displayed here</string>
     <string name="no_device">No USB camera found</string>
     <string name="permission_audio">No audio recording permission. \nAll audio function is disabled</string>
     <string name="permission_audio_recording_reason">Audio recording permission is necessary for movie capture with audio.</string>

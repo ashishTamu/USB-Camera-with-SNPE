@@ -45,6 +45,7 @@ import android.util.Log;
 import android.util.Pair;
 import android.view.Surface;
 import android.view.SurfaceHolder;
+import android.widget.TextView;
 
 import com.qualcomm.qti.snpe.FloatTensor;
 import com.qualcomm.qti.snpe.NeuralNetwork;
@@ -62,6 +63,9 @@ import com.serenegiant.widget.CameraViewInterface;
 
 
 import junit.framework.Assert;
+
+import org.opencv.android.OpenCVLoader;
+import org.opencv.imgproc.Imgproc;
 
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
@@ -376,6 +380,7 @@ abstract class AbstractUVCCameraHandler extends Handler {
 		//--------------------------------
 		private  SnpeHandler mSnpeHandler;
 		private  NeuralNetwork mNetwork;
+		private TextView mResultView;
 		//-----------------------------------
 
 		/**
@@ -408,7 +413,7 @@ abstract class AbstractUVCCameraHandler extends Handler {
 		CameraThread(final Class<? extends AbstractUVCCameraHandler> clazz,
 			final Activity parent, final CameraViewInterface cameraView,
 			final int encoderType, final int width, final int height, final int format,
-			final float bandwidthFactor, final SnpeHandler snpeHandler, NeuralNetwork network) {
+			final float bandwidthFactor, final SnpeHandler snpeHandler, TextView resultView) {
 
 			super("CameraThread");
 			mHandlerClass = clazz;
@@ -420,7 +425,8 @@ abstract class AbstractUVCCameraHandler extends Handler {
 			mWeakParent = new WeakReference<Activity>(parent);
 			mWeakCameraView = new WeakReference<CameraViewInterface>(cameraView);
 			mSnpeHandler = snpeHandler;
-			mNetwork = network;
+			mResultView = resultView;
+
 			loadShutterSound(parent);
 		}
 
@@ -554,7 +560,6 @@ abstract class AbstractUVCCameraHandler extends Handler {
 		public void handleCaptureStill(final String path ) {
 			if (DEBUG) Log.v(TAG_THREAD, "handleCaptureStill:");
 			final Activity parent = mWeakParent.get();
-			 List<String> result;
 
 			if (parent == null) return;
 /*
@@ -576,9 +581,13 @@ abstract class AbstractUVCCameraHandler extends Handler {
 			try {
 				 Bitmap bitmap = mWeakCameraView.get().captureStillImage();
 
-				result = mSnpeHandler.snpeClassifyImage(bitmap);
-				if (DEBUG) Log.d(TAG_THREAD, "after  snpe things result:" + result);
-				result.clear();
+				 //OpenCVLoader openCVLoader = new OpenCVLoader();
+
+
+				mSnpeHandler.result = mSnpeHandler.snpeClassifyImage(bitmap);
+				//if (DEBUG) Log.d(TAG_THREAD, "after  snpe things result:" + mSnpeHandler.result.toString());
+				mResultView.setText(mSnpeHandler.result.toString());
+				//result.clear();
 				//mSnpeHandler.releaseSnpeNetwork();
 
 

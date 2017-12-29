@@ -8,6 +8,7 @@ MERGED from [:usbCameraCommon] /home/ashish/android_projects/usbCameraSNPE/usbCa
 MERGED from [:libuvccamera] /home/ashish/android_projects/usbCameraSNPE/libuvccamera/build/intermediates/manifests/full/debug/AndroidManifest.xml:24:1-33:12
 MERGED from [com.serenegiant:common:1.5.20] /home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/AndroidManifest.xml:2:1-12:12
 MERGED from [:snpelibrary] /home/ashish/android_projects/usbCameraSNPE/snpelibrary/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:openCVLibrary340] /home/ashish/android_projects/usbCameraSNPE/openCVLibrary340/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/ashish/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/22fc218c761900d1dd043b270ba1cc06/AndroidManifest.xml:17:1-26:12
 MERGED from [com.android.support:support-core-ui:25.3.1] /home/ashish/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/fa0dcef421e23c3a3c98acc2fd14f34b/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:25.3.1] /home/ashish/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/0dfeebd65980b388d35ba69b41ecce21/AndroidManifest.xml:17:1-31:12
@@ -89,6 +90,8 @@ MERGED from [com.serenegiant:common:1.5.20] /home/ashish/.gradle/caches/transfor
 MERGED from [com.serenegiant:common:1.5.20] /home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/AndroidManifest.xml:8:5-10:41
 MERGED from [:snpelibrary] /home/ashish/android_projects/usbCameraSNPE/snpelibrary/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:snpelibrary] /home/ashish/android_projects/usbCameraSNPE/snpelibrary/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:openCVLibrary340] /home/ashish/android_projects/usbCameraSNPE/openCVLibrary340/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:openCVLibrary340] /home/ashish/android_projects/usbCameraSNPE/openCVLibrary340/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/ashish/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/22fc218c761900d1dd043b270ba1cc06/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/ashish/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/22fc218c761900d1dd043b270ba1cc06/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-core-ui:25.3.1] /home/ashish/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/fa0dcef421e23c3a3c98acc2fd14f34b/AndroidManifest.xml:21:5-23:58

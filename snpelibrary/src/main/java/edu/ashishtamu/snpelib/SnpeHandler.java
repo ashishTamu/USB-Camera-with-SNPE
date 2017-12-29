@@ -26,7 +26,7 @@ import java.util.Map;
 public class SnpeHandler {
 
     private static final String TAG = SnpeHandler.class.getSimpleName();
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
     /**
      * DSP run time
      * Power performance profile
@@ -163,6 +163,8 @@ public class SnpeHandler {
     }
 
     public List<String> snpeClassifyImage(Bitmap image) {
+
+        result.clear();
         try {
             labels = loadLabels(targetVector);
         } catch (IOException e) {

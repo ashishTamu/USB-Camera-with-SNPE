@@ -537,6 +537,11 @@
     <color name="viewfinder_laser">#ffcc0000</color>
     <color name="viewfinder_mask">#60000000</color>
     <declare-styleable name="AspectScaledTextureView"><attr name="aspect_ratio"/><attr name="scale_mode"/></declare-styleable>
+    <declare-styleable name="CameraBridgeViewBase"><attr format="boolean" name="show_fps"/><attr format="integer" name="camera_id">
+          <enum name="any" value="-1"/>
+          <enum name="back" value="99"/>
+          <enum name="front" value="98"/>
+       </attr></declare-styleable>
     <declare-styleable name="FrameView"><attr default="frame_type_frame" name="frame_type">
 			<enum name="frame_type_none" value="0"/>
 			<enum name="frame_type_frame" value="1"/>
