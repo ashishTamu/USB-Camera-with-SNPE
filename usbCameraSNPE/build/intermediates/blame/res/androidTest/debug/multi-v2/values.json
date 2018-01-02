@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+            "outputFile": "/home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraSNPE/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/values/values.xml",
@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "/home/ashish/android_projects/usbCameraSNPE/usbCameraCommon/build/intermediates/bundles/debug/res/values/values.xml",
+                    "source": "/home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraCommon/build/intermediates/bundles/debug/res/values/values.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -57,24 +57,7 @@
                     }
                 },
                 {
-                    "source": "/home/ashish/android_projects/usbCameraSNPE/libuvccamera/build/intermediates/bundles/debug/res/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,98,147,193,240,287,329,387,431",
-                        "endColumns": "42,48,45,46,46,41,57,43,56",
-                        "endOffsets": "93,142,188,235,282,324,382,426,483"
-                    },
-                    "to": {
-                        "startLines": "579,586,590,591,596,614,620,643,647",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "30404,30787,31059,31105,31368,32155,32613,35135,35334",
-                        "endColumns": "42,48,45,46,46,41,57,43,56",
-                        "endOffsets": "30442,30831,31100,31147,31410,32192,32666,35174,35386"
-                    }
-                },
-                {
-                    "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/snpe-release.aar/2ad332ce3906d75dfbcf274b016e9d8d/res/values/values.xml",
+                    "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/snpe-release.aar/83efc3973e74c69b182c071352884bbb/res/values/values.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -88,6 +71,23 @@
                         "startOffsets": "35391",
                         "endColumns": "73",
                         "endOffsets": "35460"
+                    }
+                },
+                {
+                    "source": "/home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/build/intermediates/bundles/debug/res/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,98,147,193,240,287,329,387,431",
+                        "endColumns": "42,48,45,46,46,41,57,43,56",
+                        "endOffsets": "93,142,188,235,282,324,382,426,483"
+                    },
+                    "to": {
+                        "startLines": "579,586,590,591,596,614,620,643,647",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "30404,30787,31059,31105,31368,32155,32613,35135,35334",
+                        "endColumns": "42,48,45,46,46,41,57,43,56",
+                        "endOffsets": "30442,30831,31100,31147,31410,32192,32666,35174,35386"
                     }
                 }
             ]

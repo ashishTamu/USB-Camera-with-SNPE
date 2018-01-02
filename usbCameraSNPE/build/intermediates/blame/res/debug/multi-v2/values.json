@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraSNPE/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
-                {
-                    "source": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/src/main/res/values/colors.xml",
-                    "from": {
-                        "startLines": "27,25,26",
-                        "startColumns": "1,1,1",
-                        "startOffsets": "1101,1009,1053",
-                        "endColumns": "42,43,47",
-                        "endOffsets": "1142,1051,1099"
-                    },
-                    "to": {
-                        "startLines": "528,529,530",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "25490,25536,25583",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "25531,25578,25629"
-                    }
-                },
                 {
                     "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/values/values.xml",
                     "from": {
@@ -40,7 +23,41 @@
                     }
                 },
                 {
-                    "source": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/src/main/res/values/styles.xml",
+                    "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/22fc218c761900d1dd043b270ba1cc06/res/values/values.xml",
+                    "from": {
+                        "startLines": "3,4,5,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "372,447,523,595",
+                        "endColumns": "74,75,71,65",
+                        "endOffsets": "442,518,590,656"
+                    },
+                    "to": {
+                        "startLines": "594,595,596,613",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "31196,31271,31347,32161",
+                        "endColumns": "74,75,71,65",
+                        "endOffsets": "31266,31342,31414,32222"
+                    }
+                },
+                {
+                    "source": "/home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraSNPE/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "24,25",
+                        "startColumns": "1,1",
+                        "startOffsets": "970,1018",
+                        "endColumns": "47,68",
+                        "endOffsets": "1016,1085"
+                    },
+                    "to": {
+                        "startLines": "623,630",
+                        "startColumns": "4,4",
+                        "startOffsets": "32619,33128",
+                        "endColumns": "50,71",
+                        "endOffsets": "32665,33195"
+                    }
+                },
+                {
+                    "source": "/home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraSNPE/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "26",
                         "startColumns": "1",
@@ -59,58 +76,41 @@
                     }
                 },
                 {
-                    "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/22fc218c761900d1dd043b270ba1cc06/res/values/values.xml",
+                    "source": "/home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraSNPE/src/main/res/values/dimens.xml",
                     "from": {
-                        "startLines": "3,4,5,6",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "372,447,523,595",
-                        "endColumns": "74,75,71,65",
-                        "endOffsets": "442,518,590,656"
+                        "startLines": "25,26,27,31,29,33,28,32,30",
+                        "startColumns": "1,1,1,1,1,1,1,1,1",
+                        "startOffsets": "1039,1094,1147,1333,1235,1425,1192,1380,1285",
+                        "endColumns": "54,52,44,46,49,47,42,44,47",
+                        "endOffsets": "1092,1145,1190,1378,1283,1471,1233,1423,1331"
                     },
                     "to": {
-                        "startLines": "594,595,596,613",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "31196,31271,31347,32161",
-                        "endColumns": "74,75,71,65",
-                        "endOffsets": "31266,31342,31414,32222"
+                        "startLines": "582,583,591,592,593,602,604,605,606",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "30548,30606,31045,31093,31143,31678,31779,31825,31873",
+                        "endColumns": "57,55,47,49,52,50,45,47,50",
+                        "endOffsets": "30601,30657,31088,31138,31191,31724,31820,31868,31919"
                     }
                 },
                 {
-                    "source": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/src/main/res/values/strings.xml",
+                    "source": "/home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraSNPE/src/main/res/values/colors.xml",
                     "from": {
-                        "startLines": "24,25",
-                        "startColumns": "1,1",
-                        "startOffsets": "970,1018",
-                        "endColumns": "47,68",
-                        "endOffsets": "1016,1085"
+                        "startLines": "27,25,26",
+                        "startColumns": "1,1,1",
+                        "startOffsets": "1101,1009,1053",
+                        "endColumns": "42,43,47",
+                        "endOffsets": "1142,1051,1099"
                     },
                     "to": {
-                        "startLines": "623,630",
-                        "startColumns": "4,4",
-                        "startOffsets": "32619,33128",
-                        "endColumns": "50,71",
-                        "endOffsets": "32665,33195"
+                        "startLines": "528,529,530",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "25490,25536,25583",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "25531,25578,25629"
                     }
                 },
                 {
-                    "source": "/home/ashish/android_projects/usbCameraSNPE/libuvccamera/build/intermediates/bundles/debug/res/values/values.xml",
-                    "from": {
-                        "startLines": "2,4,5,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,147,193,287,329,387,431",
-                        "endColumns": "42,45,46,41,57,43,56",
-                        "endOffsets": "93,188,235,324,382,426,483"
-                    },
-                    "to": {
-                        "startLines": "584,597,598,624,631,654,658",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "30662,31419,31465,32670,33200,35722,35921",
-                        "endColumns": "42,45,46,41,57,43,56",
-                        "endOffsets": "30700,31460,31507,32707,33253,35761,35973"
-                    }
-                },
-                {
-                    "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/snpe-release.aar/2ad332ce3906d75dfbcf274b016e9d8d/res/values/values.xml",
+                    "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/snpe-release.aar/83efc3973e74c69b182c071352884bbb/res/values/values.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -127,20 +127,20 @@
                     }
                 },
                 {
-                    "source": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/src/main/res/values/dimens.xml",
+                    "source": "/home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/build/intermediates/bundles/debug/res/values/values.xml",
                     "from": {
-                        "startLines": "25,26,28,32,30,34,29,33,31",
-                        "startColumns": "1,1,1,1,1,1,1,1,1",
-                        "startOffsets": "1039,1094,1148,1334,1236,1426,1193,1381,1286",
-                        "endColumns": "54,52,44,46,49,47,42,44,47",
-                        "endOffsets": "1092,1145,1191,1379,1284,1472,1234,1424,1332"
+                        "startLines": "2,4,5,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,147,193,287,329,387,431",
+                        "endColumns": "42,45,46,41,57,43,56",
+                        "endOffsets": "93,188,235,324,382,426,483"
                     },
                     "to": {
-                        "startLines": "582,583,591,592,593,602,604,605,606",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "30548,30606,31045,31093,31143,31678,31779,31825,31873",
-                        "endColumns": "57,55,47,49,52,50,45,47,50",
-                        "endOffsets": "30601,30657,31088,31138,31191,31724,31820,31868,31919"
+                        "startLines": "584,597,598,624,631,654,658",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "30662,31419,31465,32670,33200,35722,35921",
+                        "endColumns": "42,45,46,41,57,43,56",
+                        "endOffsets": "30700,31460,31507,32707,33253,35761,35973"
                     }
                 }
             ]

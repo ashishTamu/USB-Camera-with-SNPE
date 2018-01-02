@@ -47,13 +47,11 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     compile("com.serenegiant:common:${commonLibVersion}") {
-   		exclude module: 'support-v4'
-   	}
-
+        exclude module: 'support-v4'
+    }
     compile project(':libuvccamera')
     compile project(':snpelibrary')
-    compile project(':openCVLibrary340')
-
+    compile project(':OpenCV')
 }

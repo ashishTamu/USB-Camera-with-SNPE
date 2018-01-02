@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml",
+            "outputFile": "/home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraSNPE/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml",
             "map": [
                 {
-                    "source": "/home/ashish/android_projects/usbCameraSNPE/libuvccamera/build/intermediates/bundles/debug/res/values-ja/values-ja.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,94,147,186",
-                        "endColumns": "38,52,38,54",
-                        "endOffsets": "89,142,181,236"
-                    },
-                    "to": {
-                        "startLines": "3,9,32,36",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "164,656,2482,2661",
-                        "endColumns": "38,52,38,54",
-                        "endOffsets": "198,704,2516,2711"
-                    }
-                },
-                {
-                    "source": "/home/ashish/android_projects/usbCameraSNPE/usbCameraSNPE/src/main/res/values-ja/strings.xml",
+                    "source": "/home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraSNPE/src/main/res/values-ja/strings.xml",
                     "from": {
                         "startLines": "24",
                         "startColumns": "1",
@@ -35,6 +18,23 @@
                         "startOffsets": "105",
                         "endColumns": "58",
                         "endOffsets": "159"
+                    }
+                },
+                {
+                    "source": "/home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/build/intermediates/bundles/debug/res/values-ja/values-ja.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,94,147,186",
+                        "endColumns": "38,52,38,54",
+                        "endOffsets": "89,142,181,236"
+                    },
+                    "to": {
+                        "startLines": "3,9,32,36",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "164,656,2482,2661",
+                        "endColumns": "38,52,38,54",
+                        "endOffsets": "198,704,2516,2711"
                     }
                 },
                 {

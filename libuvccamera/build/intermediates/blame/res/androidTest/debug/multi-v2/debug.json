@@ -1,22 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/ashish/android_projects/usbCameraSNPE/libuvccamera/build/intermediates/res/merged/androidTest/debug/values-sw600dp-v13_values-sw600dp-v13.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/values-sw600dp-v13/values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,108,158",
-                        "endColumns": "52,49,49",
-                        "endOffsets": "103,153,203"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/home/ashish/android_projects/usbCameraSNPE/libuvccamera/build/intermediates/res/merged/androidTest/debug/values_values.arsc.flat",
+            "outputFile": "/home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/build/intermediates/res/merged/androidTest/debug/values_values.arsc.flat",
             "map": [
                 {
                     "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/values/values.xml",
@@ -55,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "/home/ashish/android_projects/usbCameraSNPE/libuvccamera/build/intermediates/bundles/debug/res/values/values.xml",
+                    "source": "/home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/build/intermediates/bundles/debug/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -74,10 +59,25 @@
             ]
         },
         {
-            "outputFile": "/home/ashish/android_projects/usbCameraSNPE/libuvccamera/build/intermediates/res/merged/androidTest/debug/values-ja_values-ja.arsc.flat",
+            "outputFile": "/home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/build/intermediates/res/merged/androidTest/debug/values-sw600dp-v13_values-sw600dp-v13.arsc.flat",
             "map": [
                 {
-                    "source": "/home/ashish/android_projects/usbCameraSNPE/libuvccamera/build/intermediates/bundles/debug/res/values-ja/values-ja.xml",
+                    "source": "/home/ashish/.gradle/caches/transforms-1/files-1.1/common-1.5.20.aar/43b7ce2829a08be4524f5749b2ae5508/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,108,158",
+                        "endColumns": "52,49,49",
+                        "endOffsets": "103,153,203"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/build/intermediates/res/merged/androidTest/debug/values-ja_values-ja.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/build/intermediates/bundles/debug/res/values-ja/values-ja.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

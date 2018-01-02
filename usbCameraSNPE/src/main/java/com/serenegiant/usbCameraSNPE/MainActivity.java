@@ -30,6 +30,7 @@ import android.graphics.SurfaceTexture;
 import android.hardware.usb.UsbDevice;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.Surface;
 import android.view.View;
@@ -53,6 +54,7 @@ import com.serenegiant.usb.USBMonitor.UsbControlBlock;
 import com.serenegiant.usb.UVCCamera;
 import com.serenegiant.utils.ViewAnimationHelper;
 import com.serenegiant.widget.CameraViewInterface;
+
 
 import java.io.File;
 import java.util.LinkedList;
@@ -116,8 +118,8 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 	private ImageButton mCaptureButton;
 
 	public SnpeHandler mSnpeHandler;
-	public File dlcFile = new File("/data/local/tmp/inception_v3/inception_v3_quantized.dlc");
-	public File targetVector = new File("/data/local/tmp/inception_v3/target.txt");
+	public File dlcFile = new File("/data/local/tmp/traffic_sign/traffic_net.dlc");
+	public File targetVector = new File("/data/local/tmp/traffic_sign/target.txt");
 	public NeuralNetwork mNetwork = null;
 	public NeuralNetwork.Runtime runtime;
 	public String[] labels;
@@ -132,11 +134,19 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 	private View mToolsLayout, mValueLayout;
 	private SeekBar mSettingSeekbar;
 
+
+
+
 	@Override
 	protected void onCreate(final Bundle savedInstanceState) {
+		System.loadLibrary("opencv_java3");
 		super.onCreate(savedInstanceState);
 		if (DEBUG) Log.v(TAG, "onCreate:");
 
+		DisplayMetrics metrics = new DisplayMetrics();
+		getWindowManager().getDefaultDisplay().getMetrics(metrics);
+		metrics.densityDpi=480;
+		getResources().getDisplayMetrics().setTo(metrics);
 
 
 		mApplication =  (Application)this.getApplicationContext();

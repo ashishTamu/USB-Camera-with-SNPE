@@ -7,8 +7,22 @@
 package edu.ashishtamu.snpelib;
 
 public final class R {
+    public static final class attr {
+        public static int camera_id = 0x7f04000d;
+        public static int show_fps = 0x7f040026;
+    }
+    public static final class id {
+        public static int any = 0x7f0c0006;
+        public static int back = 0x7f0c0007;
+        public static int front = 0x7f0c0025;
+    }
     public static final class string {
         public static int app_name = 0x7f150001;
         public static int snpe_name = 0x7f150024;
+    }
+    public static final class styleable {
+        public static int[] CameraBridgeViewBase = { 0x7f04000d, 0x7f040026 };
+        public static int CameraBridgeViewBase_camera_id = 0;
+        public static int CameraBridgeViewBase_show_fps = 1;
     }
 }

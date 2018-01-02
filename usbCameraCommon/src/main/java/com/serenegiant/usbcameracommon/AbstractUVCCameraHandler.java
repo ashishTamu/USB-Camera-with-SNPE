@@ -64,8 +64,7 @@ import com.serenegiant.widget.CameraViewInterface;
 
 import junit.framework.Assert;
 
-import org.opencv.android.OpenCVLoader;
-import org.opencv.imgproc.Imgproc;
+
 
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
@@ -562,26 +561,11 @@ abstract class AbstractUVCCameraHandler extends Handler {
 			final Activity parent = mWeakParent.get();
 
 			if (parent == null) return;
-/*
-			mApplication =  (Application)parent.getApplicationContext();
-			//if (DEBUG) Log.e(TAG_THREAD, "before snpe things:");
-
-			//set runtime
-			runtime = NeuralNetwork.Runtime.CPU;
-			//if (DEBUG) Log.e(TAG_THREAD, "run time set done:");
-			snpehandler = new SnpeHandler(mApplication,
-					dlcFile,
-					NeuralNetwork.PerformanceProfile.HIGH_PERFORMANCE,
-					runtime);
-//			if (DEBUG) Log.e(TAG_THREAD, "snpe handler init  done:");
-			network = snpehandler.buildSnpeNetwork();
-//			if (DEBUG) Log.e(TAG_THREAD, "snpe handler build  done:");
-*/
 			//mSoundPool.play(mSoundId, 0.2f, 0.2f, 0, 0, 1.0f);	// play shutter sound
 			try {
 				 Bitmap bitmap = mWeakCameraView.get().captureStillImage();
 
-				 //OpenCVLoader openCVLoader = new OpenCVLoader();
+
 
 
 				mSnpeHandler.result = mSnpeHandler.snpeClassifyImage(bitmap);

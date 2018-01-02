@@ -136,7 +136,7 @@
         android:layout_alignParentBottom="true"
         android:background="@color/CYAN"
         android:text="@string/help_message"
-        android:textSize="24sp" />
+        android:textSize="16sp" />
 
 </RelativeLayout>
 
