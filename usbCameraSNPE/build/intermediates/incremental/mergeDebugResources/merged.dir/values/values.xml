@@ -629,6 +629,7 @@
     <string name="color_swatch_description">Color <ns1:g example="14" id="color_index">%1$d</ns1:g></string>
     <string name="color_swatch_description_selected">Color <ns1:g example="14" id="color_index">%1$d</ns1:g> selected</string>
     <string name="help_message">Results will be displayed here</string>
+    <string name="ip_address">192.168.0.101</string>
     <string name="no_device">No USB camera found</string>
     <string name="permission_audio">No audio recording permission. \nAll audio function is disabled</string>
     <string name="permission_audio_recording_reason">Audio recording permission is necessary for movie capture with audio.</string>

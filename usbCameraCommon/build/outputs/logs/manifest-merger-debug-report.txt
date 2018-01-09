@@ -1,23 +1,23 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraCommon/src/main/AndroidManifest.xml:24:1-54
-INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraCommon/src/main/AndroidManifest.xml:24:1-54
-INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraCommon/src/main/AndroidManifest.xml:24:1-54
+ADDED from /home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/src/main/AndroidManifest.xml:24:1-54
+INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/src/main/AndroidManifest.xml:24:1-54
+INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/src/main/AndroidManifest.xml:24:1-54
 	package
-		ADDED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraCommon/src/main/AndroidManifest.xml:24:11-52
-		INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraCommon/src/main/AndroidManifest.xml
-		INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraCommon/src/main/AndroidManifest.xml
+		ADDED from /home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/src/main/AndroidManifest.xml:24:11-52
+		INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/src/main/AndroidManifest.xml
+		INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/src/main/AndroidManifest.xml
 uses-sdk
-INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraCommon/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraCommon/src/main/AndroidManifest.xml
-INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraCommon/src/main/AndroidManifest.xml
-INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraCommon/src/main/AndroidManifest.xml
-INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraCommon/src/main/AndroidManifest.xml
+INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/src/main/AndroidManifest.xml
+INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/src/main/AndroidManifest.xml
+INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/src/main/AndroidManifest.xml
+INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraCommon/src/main/AndroidManifest.xml
-		ADDED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraCommon/src/main/AndroidManifest.xml
-		INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraCommon/src/main/AndroidManifest.xml
+		INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/src/main/AndroidManifest.xml
+		ADDED from /home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/src/main/AndroidManifest.xml
+		INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraCommon/src/main/AndroidManifest.xml
-		ADDED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraCommon/src/main/AndroidManifest.xml
-		INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraCommon/src/main/AndroidManifest.xml
+		INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/src/main/AndroidManifest.xml
+		ADDED from /home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/src/main/AndroidManifest.xml
+		INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/src/main/AndroidManifest.xml

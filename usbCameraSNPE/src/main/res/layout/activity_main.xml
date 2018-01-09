@@ -47,7 +47,7 @@
         android:layout_alignRight="@+id/camera_view"
         android:layout_alignTop="@+id/camera_view"
         android:src="@drawable/border" />
-<!--
+
 	<ToggleButton
 		android:id="@+id/camera_button"
 		android:layout_width="wrap_content"
@@ -55,7 +55,7 @@
 		android:layout_alignBottom="@id/camera_view"
 		android:layout_alignLeft="@id/camera_view"
 		android:text="ToggleButton"/>
-		-->
+
 
 
 
@@ -128,7 +128,23 @@
 			android:progress="50"/>
 	</RelativeLayout>
 
-
+	<EditText
+		android:id="@+id/editIP"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@id/resultView"
+		android:text="@string/ip_address"
+		android:textColor="@color/WHITE"
+		/>
+	<Button
+		android:id="@+id/buttonIP"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@id/resultView"
+		android:layout_alignParentRight="true"
+		android:text="OK"
+		android:textColor="@color/WHITE"
+		/>
     <TextView
         android:id="@+id/resultView"
         android:layout_width="match_parent"

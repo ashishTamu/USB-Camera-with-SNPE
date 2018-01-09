@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraSNPE/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "outputFile": "/home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraSNPE/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraSNPE/src/main/res/values-w820dp/dimens.xml",
+                    "source": "/home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraSNPE/src/main/res/values-w820dp/dimens.xml",
                     "from": {
                         "startLines": "27",
                         "startColumns": "1",

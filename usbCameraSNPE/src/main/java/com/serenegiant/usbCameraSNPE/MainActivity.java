@@ -24,11 +24,15 @@
 package com.serenegiant.usbCameraSNPE;
 
 import android.animation.Animator;
+import android.app.Activity;
 import android.app.Application;
+import android.content.res.AssetManager;
 import android.graphics.Bitmap;
 import android.graphics.SurfaceTexture;
 import android.hardware.usb.UsbDevice;
+import android.net.Uri;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.support.annotation.NonNull;
 import android.util.DisplayMetrics;
 import android.util.Log;
@@ -36,7 +40,9 @@ import android.view.Surface;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.View.OnLongClickListener;
+import android.widget.Button;
 import android.widget.CompoundButton;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.SeekBar;
 import android.widget.TextView;
@@ -56,7 +62,15 @@ import com.serenegiant.utils.ViewAnimationHelper;
 import com.serenegiant.widget.CameraViewInterface;
 
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.net.URI;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -65,6 +79,9 @@ import edu.ashishtamu.snpelib.SnpeHandler;
 public final class MainActivity extends BaseActivity implements CameraDialog.CameraDialogParent {
 	private static final boolean DEBUG = true;	// TODO set false on release
 	private static final String TAG = "MainActivity";
+
+
+
 
 	/**
 	 * set true if you want to record movie using MediaSurfaceEncoder
@@ -118,8 +135,13 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 	private ImageButton mCaptureButton;
 
 	public SnpeHandler mSnpeHandler;
-	public File dlcFile = new File("/data/local/tmp/traffic_sign/traffic_net.dlc");
-	public File targetVector = new File("/data/local/tmp/traffic_sign/target.txt");
+	//v3 = new model with with mean 127.5/255;
+	public File dlcFile = new File("/data/local/tmp/traffic-sign/traffic_net_v4.dlc");
+
+	//public File targetVector = new File("/data/local/tmp/traffic-sign/target.txt");
+
+
+	//public File targetVectorList = new File("assets/target.txt");
 	public NeuralNetwork mNetwork = null;
 	public NeuralNetwork.Runtime runtime;
 	public String[] labels;
@@ -133,8 +155,14 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 	private View mResetButton;
 	private View mToolsLayout, mValueLayout;
 	private SeekBar mSettingSeekbar;
-
-
+	private CountDownTimer countDownTimer;
+	public MyClientTask myClientTask;
+	public String IP = "192.168.0.101";
+	int port = 8080;
+	public InputStream inputStream;
+	public File targetVectorList;
+	private Button mButtonIP;
+	private EditText mEditIP;
 
 
 	@Override
@@ -149,6 +177,20 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 		getResources().getDisplayMetrics().setTo(metrics);
 
 
+		//Uri pathtarget = Uri.parse("file:///android_asset/target.txt");
+	//	String pathTargetFile = "file:///android_asset/target.txt";//pathtarget.getPath();
+	//	targetVectorList = new File(pathTargetFile);
+
+		//Uri pathDlc = Uri.parse("file:///android_asset/traffic_net_v1.dlc");
+		/*
+		String pathDlcFile = "file:///android_asset/traffic_net_v1.dlc";//pathDlc.getPath();
+		File dlcFile = new File(pathDlcFile);
+		if (dlcFile==null)
+		{
+			Log.d (TAG, "cant read file");
+			return;
+		}*/
+
 		mApplication =  (Application)this.getApplicationContext();
 		//set runtime
 		runtime = NeuralNetwork.Runtime.GPU;
@@ -156,17 +198,18 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 				dlcFile,
 				NeuralNetwork.PerformanceProfile.HIGH_PERFORMANCE,
 				runtime);
+		if (mSnpeHandler==null)
+			if (DEBUG) Log.v(TAG, "Error!!! check SNPE path");
+		mSnpeHandler.labels=createFileFromInputStream();;
 		mNetwork = mSnpeHandler.buildSnpeNetwork();
 
 
-
-
 		setContentView(R.layout.activity_main);
-		/*ashishku mCameraButton = (ToggleButton)findViewById(R.id.camera_button);
-		mCameraButton.setOnCheckedChangeListener(mOnCheckedChangeListener);*/
+		mCameraButton = (ToggleButton)findViewById(R.id.camera_button);
+		mCameraButton.setOnCheckedChangeListener(mOnCheckedChangeListener);
 
 
-		CameraDialog.showDialog(MainActivity.this);
+		//CameraDialog.showDialog(MainActivity.this);//ashishku
 		mCaptureButton = (ImageButton)findViewById(R.id.capture_button);
 		mCaptureButton.setOnClickListener(mOnClickListener);
 		mCaptureButton.setVisibility(View.INVISIBLE);
@@ -192,12 +235,73 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 
         //ashishku added for display of result
         mResultView = (TextView) findViewById(R.id.resultView);
+		mButtonIP = (Button) findViewById(R.id.buttonIP);
+		mEditIP=(EditText) findViewById(R.id.editIP);
+		mButtonIP.setOnClickListener(mIPOnClickListener);
+
+		//myClientTask= new MyClientTask(IP,port,"warning1");
+
 
 
 		mUSBMonitor = new USBMonitor(this, mOnDeviceConnectListener);
 		mCameraHandler = UVCCameraHandler.createHandler(this, mUVCCameraView,
 			USE_SURFACE_ENCODER ? 0 : 1, PREVIEW_WIDTH, PREVIEW_HEIGHT, PREVIEW_MODE, mSnpeHandler, mResultView);
 
+
+	}
+	public String[] createFileFromInputStream() {
+
+
+		BufferedReader reader = null;
+		try {
+			reader = new BufferedReader(
+					new InputStreamReader(getAssets().open("target.txt")));
+
+
+			final List<String> list = new LinkedList<>();
+
+			String line;
+			while ((line = reader.readLine()) != null) {
+				list.add(line);
+			}
+			reader.close();
+			return list.toArray(new String[list.size()]);
+		}
+
+
+		catch (IOException e) {
+			//Logging exception
+			return null;
+		}
+
+
+	}
+
+	public void infinite_countdown() {
+		countDownTimer = new CountDownTimer(Long.MAX_VALUE, 100) {
+			@Override
+			public void onTick(long millisUntilFinished) {
+				if (mCameraHandler.isOpened()) {
+					if (checkPermissionWriteExternalStorage()) {
+						mCameraHandler.captureStill();
+						//mSnpeHandler.result = mSnpeHandler.snpeClassifyImage();
+						mResultView.setText(mSnpeHandler.result.toString());
+						myClientTask= new MyClientTask(IP,port,"Warning1");
+						myClientTask.msgToServer=mSnpeHandler.result.toString();
+						myClientTask.execute();
+
+						//
+
+					}
+				}
+
+			}
+
+			@Override
+			public void onFinish() {
+				countDownTimer.start();
+			}
+		}.start();
 
 	}
 
@@ -216,7 +320,8 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 		mCameraHandler.close();
 		if (mUVCCameraView != null)
 			mUVCCameraView.onPause();
-		/*ashishku setCameraButton(false);*/
+		countDownTimer.cancel();//ashishku
+		setCameraButton(false);
 		super.onStop();
 	}
 
@@ -266,10 +371,20 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 			case R.id.reset_button:
 				resetSettings();
 				break;
+
 			}
 		}
 	};
-/*ashishku
+
+	private final OnClickListener mIPOnClickListener = new OnClickListener() {
+		@Override
+		public void onClick(View v) {
+
+			IP=mEditIP.getText().toString();
+
+		}
+	};
+
 	private final CompoundButton.OnCheckedChangeListener mOnCheckedChangeListener
 		= new CompoundButton.OnCheckedChangeListener() {
 		@Override
@@ -278,6 +393,13 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 			case R.id.camera_button:
 				if (isChecked && !mCameraHandler.isOpened()) {
 					CameraDialog.showDialog(MainActivity.this);
+					if (mCameraHandler.isOpened()) {
+						if (checkPermissionWriteExternalStorage()) {
+							//mCameraHandler.captureStill();
+							infinite_countdown();
+
+						}
+					}
 				} else {
 					mCameraHandler.close();
 					setCameraButton(false);
@@ -285,7 +407,7 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 				break;
 			}
 		}
-	};*/
+	};
 
 	/**
 	 * capture still image when you long click on preview image(not on buttons)
@@ -297,7 +419,8 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 			case R.id.camera_view:
 				if (mCameraHandler.isOpened()) {
 					if (checkPermissionWriteExternalStorage()) {
-						mCameraHandler.captureStill();
+						//mCameraHandler.captureStill();
+						infinite_countdown();
 					}
 					return true;
 				}
@@ -315,7 +438,7 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 						mCameraButton.setOnCheckedChangeListener(null);
 						mCameraButton.setChecked(isOn);
 					} finally {
-						//ashishku mCameraButton.setOnCheckedChangeListener(mOnCheckedChangeListener);
+						 mCameraButton.setOnCheckedChangeListener(mOnCheckedChangeListener);
 					}
 				}
 				if (!isOn && (mCaptureButton != null)) {
@@ -336,7 +459,8 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 			}
 		});
 		updateItems();
-		mCameraHandler.captureStill();//ashishku
+		//mCameraHandler.captureStill();//ashishku
+		//infinite_countdown();
 
 	}
 

@@ -40,7 +40,7 @@ public class SnpeHandler {
      */
 
     /* Model Path */
-    private File dlcPath=new File ("/data/local/tmp/traffic_sign/traffic_net.dlc");
+    private File dlcPath=new File ("/data/local/tmp/traffic-sign/traffic_net.dlc");
     private NeuralNetwork.Runtime runTime = NeuralNetwork.Runtime.GPU;
     private NeuralNetwork.PerformanceProfile performanceProfile = NeuralNetwork.PerformanceProfile.HIGH_PERFORMANCE;
     private FloatTensor inputTensor;
@@ -50,9 +50,10 @@ public class SnpeHandler {
     private Map<String, FloatTensor> outputs;
     private Map<String, FloatTensor> inputs = new HashMap<>();
 
-    public File targetVector = new File("/data/local/tmp/traffic_sign/target.txt");
+    public File targetVector = new File("/data/local/tmp/traffic-sign/target.txt");
     public String[] labels;
     public List<String> result = new LinkedList<>();
+    public Bitmap bitmap_snpe;
 
     public SnpeHandler(Application app,
                        File dlcConsPath,
@@ -177,28 +178,34 @@ public class SnpeHandler {
         for (int y = 0; y < processedImage.getHeight(); y++) {
             for (int x = 0; x < processedImage.getWidth(); x++) {
                 final int rgb = pixels[y * processedImage.getWidth() + x];
-                float b = (((rgb) & 0xFF) - 128) / 128.0f;
+    /*            float b = (((rgb) & 0xFF) - 128) / 128.0f;
                 float g = (((rgb >> 8) & 0xFF) - 128) / 128.0f;
-                float r =(((rgb >> 16) & 0xFF) - 128) / 128.0f;
+               float r =(((rgb >> 16) & 0xFF) - 128) / 128.0f;
+  */
+                float b = -0.5f+((((rgb) & 0xFF) - 0.0f) / 255.0f);
+                float g = -0.5f+((((rgb >> 8) & 0xFF) - 0.0f) / 255.0f);
+                float r =-0.5f+((((rgb >> 16) & 0xFF) - 0.0f) / 255.0f);
+
                 float[] pixelFloats = {b, g, r};
                 tensor.write(pixelFloats, 0, pixelFloats.length, y, x);
             }
         }
     }
 
-    public List<String> snpeClassifyImage(Bitmap image) {
+    public List<String> snpeClassifyImage() {
 
         result.clear();
+
+
+
+        final Map<String, FloatTensor> outputs = executeNetwork(snpeNetwork,bitmap_snpe);
+/*
         try {
             labels = loadLabels(targetVector);
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-
-        final Map<String, FloatTensor> outputs = executeNetwork(snpeNetwork,image);
-
-
+*/
         for (Map.Entry<String, FloatTensor> output : outputs.entrySet()) {
             if (output.getKey().equals("Softmax:0")) {
                 for (Pair<Integer, Float> pair : topK(1, output.getValue())) {

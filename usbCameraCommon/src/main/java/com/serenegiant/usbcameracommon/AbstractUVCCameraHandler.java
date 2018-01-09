@@ -62,7 +62,9 @@ import com.serenegiant.usb.UVCCamera;
 import com.serenegiant.widget.CameraViewInterface;
 
 
+
 import junit.framework.Assert;
+
 
 
 
@@ -91,9 +93,6 @@ import edu.ashishtamu.snpelib.SnpeHandler;
 abstract class AbstractUVCCameraHandler extends Handler {
 	private static final boolean DEBUG = true;	// TODO set false on release
 	private static final String TAG = "AbsUVCCameraHandler";
-
-
-
 
 
 	public interface CameraCallback {
@@ -342,7 +341,7 @@ abstract class AbstractUVCCameraHandler extends Handler {
 		case MSG_CAPTURE_STILL:
 
 				thread.handleCaptureStill((String) msg.obj);
-				handleMessage(msg);//ashishku added ineffcient way to run in loop for right now
+				//handleMessage(msg);//ashishku added ineffcient way to run in loop for right now
 
 			break;
 		case MSG_CAPTURE_START:
@@ -378,8 +377,8 @@ abstract class AbstractUVCCameraHandler extends Handler {
 
 		//--------------------------------
 		private  SnpeHandler mSnpeHandler;
-		private  NeuralNetwork mNetwork;
 		private TextView mResultView;
+		public Bitmap bitmap_snpe;
 		//-----------------------------------
 
 		/**
@@ -563,17 +562,13 @@ abstract class AbstractUVCCameraHandler extends Handler {
 			if (parent == null) return;
 			//mSoundPool.play(mSoundId, 0.2f, 0.2f, 0, 0, 1.0f);	// play shutter sound
 			try {
-				 Bitmap bitmap = mWeakCameraView.get().captureStillImage();
+				mSnpeHandler.bitmap_snpe = mWeakCameraView.get().captureStillImage();
 
+		//
 
-
-
-				mSnpeHandler.result = mSnpeHandler.snpeClassifyImage(bitmap);
-				//if (DEBUG) Log.d(TAG_THREAD, "after  snpe things result:" + mSnpeHandler.result.toString());
-				mResultView.setText(mSnpeHandler.result.toString());
-				//result.clear();
-				//mSnpeHandler.releaseSnpeNetwork();
-
+				mSnpeHandler.result = mSnpeHandler.snpeClassifyImage();
+				//mResultView.setText(mSnpeHandler.result.toString());
+		//
 
 
 				// get buffered output stream for saving a captured still image as a file on external storage.

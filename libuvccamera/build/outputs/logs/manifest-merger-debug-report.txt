@@ -1,37 +1,37 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/src/main/AndroidManifest.xml:24:1-29:12
-INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/src/main/AndroidManifest.xml:24:1-29:12
-INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/src/main/AndroidManifest.xml:24:1-29:12
-INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/src/main/AndroidManifest.xml:24:1-29:12
-INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/src/main/AndroidManifest.xml:24:1-29:12
-INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/src/main/AndroidManifest.xml:24:1-29:12
-INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/src/main/AndroidManifest.xml:24:1-29:12
+ADDED from /home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/src/main/AndroidManifest.xml:24:1-29:12
+INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/src/main/AndroidManifest.xml:24:1-29:12
+INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/src/main/AndroidManifest.xml:24:1-29:12
+INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/src/main/AndroidManifest.xml:24:1-29:12
+INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/src/main/AndroidManifest.xml:24:1-29:12
+INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/src/main/AndroidManifest.xml:24:1-29:12
+INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/src/main/AndroidManifest.xml:24:1-29:12
 	package
-		ADDED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/src/main/AndroidManifest.xml:25:5-40
-		INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/src/main/AndroidManifest.xml
-		INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/src/main/AndroidManifest.xml
+		ADDED from /home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/src/main/AndroidManifest.xml:25:5-40
+		INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/src/main/AndroidManifest.xml
+		INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/src/main/AndroidManifest.xml:27:5-30
-		INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/src/main/AndroidManifest.xml
-		INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/src/main/AndroidManifest.xml
+		ADDED from /home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/src/main/AndroidManifest.xml:27:5-30
+		INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/src/main/AndroidManifest.xml
+		INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/src/main/AndroidManifest.xml:24:11-69
+		ADDED from /home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/src/main/AndroidManifest.xml:24:11-69
 	android:versionCode
-		ADDED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/src/main/AndroidManifest.xml:26:5-28
-		INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/src/main/AndroidManifest.xml
-		INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/src/main/AndroidManifest.xml
+		ADDED from /home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/src/main/AndroidManifest.xml:26:5-28
+		INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/src/main/AndroidManifest.xml
+		INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/src/main/AndroidManifest.xml
 uses-sdk
-INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/src/main/AndroidManifest.xml
-INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/src/main/AndroidManifest.xml
-INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/src/main/AndroidManifest.xml
-INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/src/main/AndroidManifest.xml
+INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/src/main/AndroidManifest.xml
+INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/src/main/AndroidManifest.xml
+INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/src/main/AndroidManifest.xml
+INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/src/main/AndroidManifest.xml
-		ADDED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/src/main/AndroidManifest.xml
-		INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/src/main/AndroidManifest.xml
+		INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/src/main/AndroidManifest.xml
+		ADDED from /home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/src/main/AndroidManifest.xml
+		INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/src/main/AndroidManifest.xml
-		ADDED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/src/main/AndroidManifest.xml
-		INJECTED from /home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/src/main/AndroidManifest.xml
+		INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/src/main/AndroidManifest.xml
+		ADDED from /home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/src/main/AndroidManifest.xml
+		INJECTED from /home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/src/main/AndroidManifest.xml

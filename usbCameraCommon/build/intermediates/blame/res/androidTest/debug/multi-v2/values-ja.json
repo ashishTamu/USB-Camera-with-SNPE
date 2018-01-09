@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/ashish/android_projects/git_usbcam/usbCameraSNPE/usbCameraCommon/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ja/values-ja.xml",
+            "outputFile": "/home/ashish/android_projects/USB-Camera-with-SNPE/usbCameraCommon/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ja/values-ja.xml",
             "map": [
                 {
-                    "source": "/home/ashish/android_projects/git_usbcam/usbCameraSNPE/libuvccamera/build/intermediates/bundles/debug/res/values-ja/values-ja.xml",
+                    "source": "/home/ashish/android_projects/USB-Camera-with-SNPE/libuvccamera/build/intermediates/bundles/debug/res/values-ja/values-ja.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

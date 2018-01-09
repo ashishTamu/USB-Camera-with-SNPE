@@ -24,4 +24,5 @@
 <resources>
 	<string name="app_name">usbCameraSNPE</string>
 	<string name="help_message">Results will be displayed here</string>
+	<string name="ip_address">192.168.0.101</string>
 </resources>
